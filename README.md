@@ -6,9 +6,13 @@ Falta:
 1er Parcial:
 
 1. Conjuntos, Relaciones y Funciones
+
 1.1 [x]
+
 1.2 []
+
 1.3 []
+
 2. Numeros Naturales e Induccion
 2.1 [] 
 2.2 []
