@@ -1,6 +1,8 @@
 # uba-al1-resueltos
 Resueltos de Algebra 1- 2C2021.
 
+Voy a ir actualizando los resueltos a medida que me libere con los parciales. Me faltan terminar algunos ejercicios de la Guia 7 de polinomios. Deberia estar todo pasado a Latex en Enero 2022.
+
 Falta:
 
 1er Parcial:
