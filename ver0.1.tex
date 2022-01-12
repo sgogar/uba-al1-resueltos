@@ -1,20 +1,65 @@
-\documentclass[10pt, a4paper]{book}
-\usepackage[utf8]{inputenc}
-\usepackage{setspace}
-\usepackage{parskip}
-\usepackage{amsfonts}
+\documentclass[a4paper,11pt]{article}
+\usepackage[T1]{fontenc}				% Para que se puedan formar tildes como una sola letra
+\usepackage[utf8]{inputenc}             % Para poder escribir tildes
+\usepackage{textcomp}					% M\`as caracteres acentuados
+\usepackage{multicol}					% Crea ambientes donde se puede escribir en varias columnas
+\usepackage{soul}
+\usepackage{mathtools}
+\usepackage{amsmath,amssymb,amsfonts,latexsym,cancel}	% Paquete para la creaci\'on de ambientes y s\'imbolos matem\'aticos
+\usepackage{amssymb}
+\usepackage{multirow}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{anysize}
+\usepackage{fancyhdr}
+\usepackage{xcolor}	
+\usepackage{graphicx}	
+\usepackage{caption}
+\usepackage{adjustbox}
+\usepackage[colorlinks=true,backref=true,linkcolor=azul,citecolor=g,urlcolor=azul]{hyperref}
+\IfFileExists{enumitem.sty}{\usepackage{enumitem}}{}
+\usepackage{floatrow}
 \title{Algebra I - Resueltos 2021}
-\author{Por Libatio\thanks{Agradecimientos y coautoria de tew, el sinse, ido, luchando por la vida}
-}
-\doublespacing
+
+%---------------------------------------------------------------------------------------------------------------------------
+					% Para ajustar m\'argenes del documento
+\marginsize{1cm}{1cm}{0.5cm}{0.3cm}
+%\marginsize{L}{R}{U}{D}
+\captionsetup{font={scriptsize}}
+%\setlength{\captionmargin}{20pt}
+%\newcommand{\captionfonts}{\scriptsize}
+%\makeatletter  % Allow the use of @ in command names
+%\long\def\@makecaption#1#2{%
+%  \vskip\abovecaptionskip
+%  \sbox\@tempboxa{{\captionfonts #1: #2}}%
+%  \ifdim \wd\@tempboxa >\hsize
+%    {\captionfonts #1: #2\par}
+%  \else
+%    \hbox to\hsize{\hfil\box\@tempboxa\hfil}%
+%  \fi
+ % \vskip\belowcaptionskip}
+%\makeatother
+
+
+
 \begin{document}
+\makeatletter
+\renewcommand{\maketitle}{
+\begin{center}
+\begin{normalsize}\textbf{\@title}\end{normalsize}\\
+\begin{normalsize}\@author\end{normalsize}
+\end{center}
+}
+\title{Álgebra I - Ejercicios Resueltos - 2do Cuatrimestre 2021} 
+\author{Santiago García}
 \maketitle
+
 Esto es una beta con los ejercicios resueltos de Algebra hasta el primer parcial. Puede contener \textbf{errores}, así como también aciertos. Lo voy a terminar post 15 de Diciembre cuando me libere con los parciales. 
 
 Muchas gracias a Teresa, Nico, Georgi, Vicky, Juli y Sergio por hacer esto posible [etc]
-\chapter{Conjuntos, Relaciones y Funciones}
+%\chapter{Conjuntos, Relaciones y Funciones}
 
-\section{Conjuntos}
+\section{Práctica 1 - Conjuntos, Relaciones y Funciones}
+\subsection{Conjuntos}
 1. i) Verdadero. ii) Verdadero. iii) Verdadero. iv) Falso. v) Falso.\\
 2. i) Falso pues \(3\not\in A\). ii) Verdadero. iii) Falso pues \(\lbrace\lbrace3\rbrace\rbrace\subset A\).\\
  iv) Verdadero. v) Verdadero. vi) Verdadero. vii) Verdadero \\
@@ -69,7 +114,7 @@ Tomo \(X \in \mathcal{P}(A) \) entonces \(X \subseteq A \) y entonces \(X \subse
 \(A \times B= \{(1,1),(1,3),(1,5),(1,7),(2,1),(2,2),(2,5),(2,7),(3,1),(3,3),(3,5),(3,7)\} \)\\
 \((A\cap B)\times(A\cup B)=\{(1,1),(1,3),(1,5),(1,7),(3,1),(3,3),(3,5),(3,7)\} \)\\
 16. Probalo vos. \\
-\section{Relaciones}
+\subsection{Relaciones}
 17. i. Es relacion? Si, pues todos los elementos que se relacionan de A en B existen en A o B segun especifica la relacion.\\
 ii. No es, ya que \( (3,2) \in R\) pero \(2 \not\in B\)\\
 iii. Si, idem i.\\
@@ -86,6 +131,185 @@ i) 4 ii) 1 iii) 5 iv) 6 v) 5 vi) ??? (Revisar, hecho de cuaderno viejo)\\
 ii) Es reflexiva? \((a,a) \in \mathbb{N} \times \mathbb{N} : \: a+a=2a\) es par. Si. \\
 Es simetrica? \((a,b) \in \mathbb{N} \times \mathbb{N} : \: a+b\: es\:par \) \(\Rightarrow(b,a) \in \mathbb{N} \times \mathbb{N}: b+a\) es par. Si, por conmutatividad de la suma. \\
 Es antisimetrica? No. i.e. (2,4) y (4,2)\\
-Es Transitiva? No. i.e. (1,1) y (2,2) 
+Es Transitiva? No. i.e. (1,1) y (2,2) \\
+24. \={a}=\(\{a,b,f\}\) \={c}=\(\{e,f\}\) \={d}=\(\{d\}\)\\
+la partición asociada a \(\mathcal{R}\) : \(\{a,b,f\} \cap \{c,e\} \cap \{d\}\)\\
+25. Tiene cuatro clases de equivalencia. Cada clase está representada en la partición \(\mathcal{R}\) como cada "elemento" de esta. (Adjuntar gráfico)\\
+26. Para probar que una relación es de equivalencia, necesitamos saber si es simultaneamente reflexiva, simétrica y transitiva.\\
+\colorbox{lightgray}{Reflexiva} \(A \mathcal{R}A \Leftrightarrow A \triangle A \cap \{1,2,3\}=\emptyset\) \\
+\(A \triangle A =\emptyset \Rightarrow \emptyset \cap \{1,2,3\} = \emptyset\)\\
+\colorbox{lightgray}{\textit{Simétrica}}  \(A \mathcal{R}B \Leftrightarrow B \mathcal{R} A\) \\
+\(A \mathcal{R}B \Leftrightarrow A \triangle B \cap \{1,2,3\}=\emptyset\) \\
+\(A \mathcal{R}B \Leftrightarrow B \triangle A \cap \{1,2,3\}=\emptyset\) (Esto se puede ver por simetría de la diferencia simétrica[\(\triangle\)])\\ 
+\colorbox{lightgray}{\textit{Transitiva}} Se puede demostrar por tabla de verdad\\
+Finalmente, el ejercicio nos pide decidir si la relación es antisimétrica:\\
+\colorbox{lightgray}{\textit{Antisimétrica}}\\
+ii)Encontrar la clase de equivalencia de \(A=\{1,2,3\}\)\\
+27. Similarmente al ejercicio anterior, debemos ver que cumpla las tres condiciones ya nombradas para probar que es una relación de equivalencia. \\
+\colorbox{lightgray}{Reflexiva} \(x \mathcal{R}x \Leftrightarrow x^2 - x^2 = 93x - 93x = 0 \) \\ 
+\colorbox{lightgray}{Simétrica} \(x \mathcal{R}y \Rightarrow y \mathcal{R}x \) \\ 
+\(y \mathcal{R}x \Leftrightarrow y^2 - x^2 = 93y - 93x \)\\
+Y multiplicando por \(-1\):\\
+\(y \mathcal{R}x \Leftrightarrow x^2 - y^2 = 93x - 93y \Rightarrow x \mathcal{R}y\)\\
+Y por lo tanto es simétrica.\\
+\colorbox{lightgray}{Transitiva} \(x \mathcal{R}y \land y\mathcal{R}z \Rightarrow x \mathcal{R}z\)\\
+\(x \mathcal{R}y \Leftrightarrow x^2 - y^2 = 93x - 93y \)\\
+\(y \mathcal{R}z \Leftrightarrow y^2 - z^2 = 93y - 93z \)\\
+Sumando ambas ecuaciones:\\
+\(x^2 - y^2 + y^2 - z^2 = 93x - 93y + 93y - 93z \)\\
+\(\Leftrightarrow x^2 - z^2 = 93x - 93z \Rightarrow x \mathcal{R}z \)\\
+Entonces la relación es reflexiva, simétrica y transitiva y por lo tanto podemos concluir que es de equivalencia.
+Por último, el ejercicio nos pide decidir si es antisimétrica:\\
+\colorbox{lightgray}{Antisimetrica} \(x \mathcal{R}y \land y\mathcal{R}x \Rightarrow x=y\)\\
+Esto se puede demostrar como Falso con un simple contraejemplo.
+Si tomamos \(92\) y \(1\) como \(x\) e \(y\) respectivamente, obtenemos:\\
+\(92\: \mathcal{R}\:1 \Leftrightarrow 92^2 - 1^2 = 93(92) - 93\)\\
+\(\Leftrightarrow 92^2 - 1^2 = 93(92) - 93\)\\
+\(\Leftrightarrow 92^2 - 1^2 = 93(92-1)\)\\
+\(\Leftrightarrow (92+1)(92-1) = 93\cdot 91\)\\
+\(\Leftrightarrow 93\cdot 91\ = 93\cdot 91 \Rightarrow 93 = 91\) \underline{Absurdo!}\\
+Entonces no es antisimétrica.\\
+ii) Hallar la clase de equivalencia de cada \(x \in A\) \\
+28. i) \(A \mathcal{R} B \Leftrightarrow \#X = \#Y\)\\
+Entonces, como hay 10 elementos en A, es posible formar 10 clases de equivalencia distintas, cada uno correspondiendo al cardinal indicado. \\
+\(\#\overline{\{1\}}, \#\overline{\{1,2\}}, ... \#\overline{\{1,2...10\}}\) (nota: los cardinales están de más, arreglar)\\
+ii)Infinitas clases de equivalencia. \\
+\(\#\bar{1}, \#\bar{2}, ... \#\bar{n}\)
+\subsection{Funciones}
+29. i) No pues \( (3,a) \in \mathcal{R} \land (3,d) \in \mathcal{R} \Leftrightarrow a=d \) Absurdo.\\
+ii) No pues 5 no se relaciona con nadie.\\
+iii) Si, pues todo los elementos del conjunto de partida se relacionan. \\
+iv) \(A=\mathbb{N}, B=\mathbb{R}, \mathcal{R}=\{(a,b) \in \mathbb{N}x\mathbb{R} : a=2b-3\}\)\\
+Si, pues todos los elementos de \(\mathbb{N}\) están relacionados con algún elemento de \(\mathbb{R}\) \\
+Esto se puede ver como: \(a=2b-3 \Rightarrow \frac{a+3}{2} = b \in \mathbb{R}\)\\
+Es un numero real pues \(a\in\mathbb{N}\)\\
+v)\(A=\mathbb{R}, B=\mathbb{N}, \mathcal{R}=\{(a,b) \in \mathbb{R}x\mathbb{N} : a=2b-3\}\)\\
+No, pues no todos los elementos de \(\mathbb{R}\) están relacionados con los elementos de \(\mathbb{N}\) (Está al revés, se puede ver fácilmente buscando un contraejemplo con la expresión anterior)\\
+vi)\(A=\mathbb{R}, B=\mathbb{N}, \mathcal{R}=\{(a,b) \in \mathbb{R}x\mathbb{N} : a+b \:es\:divisible\:por\:5\}\)\\
+Luego, \(a+b=5k\) con \(k\in\mathbb{Z}\)\\
+30. i) \colorbox{lightgray}{Inyectividad} Asumimos que es inyectiva, y probamos por contraejemplo que no lo es:\\
+$f(1)=f(-1) \Rightarrow 1 = -1 $ Absurdo! Entonces no es inyectiva.\\
+\colorbox{lightgray}{Sobreyectiva} \(12x^2 + 5 = y \Rightarrow \sqrt[]{\frac{y+5}{12}} = x\) con $\frac{y+5}{12} \geqslant 0$\\
+Entonces, restringiendo la imagen(?), es sobreyectiva con $ \mathbb{R} \rightarrow \mathbb{R_\geqslant} 5$ \\ 
+\colorbox{lightgray}{Biyectiva} No es biyectiva ya que es sobreyectiva pero no inyectiva. \\
+ii)\\
+31. i) $f(g(n,m))=\frac{(n(m+1))^2}{2}$\\
+Finalmente nos queda:\\
+\[
+  f\circ g(n,m) =
+  \begin{cases}
+                                   \frac{(n(m+1))^2}{2} & \text{si $n=6k$} \\
+                                   3(n(m+1))+1 & \text{si $n \neq 6k$} \\
+  \end{cases}
+%
+\]
+Habiendo calculado esto, evaluando:\\
+\(f \circ g (2,5) = 72\)\\
+\(f \circ g (3,2) = 28\)\\
+\(f \circ g (3,4) = 46\)\\
+ii) \[
+  f\circ g(n) =
+  \begin{cases}
+                                   n & \text{si $n \leq 7$} \\
+                                   2\:\sqrt[•]{n} - 1 & \text{si $n > 7$} \\
+  \end{cases}
+%
+\]
+con n > 0.\\
+Para el primer caso, $f\circ g(n) \neq 13$ pues $n\leq 7$\\
+Para el segundo caso, habra que encontrar un $n$ tal que $f\circ g(n) = 13 = 2\:\sqrt[•]{n} - 1 \Leftrightarrow \frac{14}{2} = 7 = \sqrt[•]{n} \Leftrightarrow |n| = 7^2$
+Entonces o bien $n$ es $(-7)^2\notin \mathbb{N}$ o bien $n$ es $7^2 \in \mathbb{N}$\\
+Luego $f\circ g (49) = 13$. \\
+Para $15$ lo mismo, solo que el valor será $64$.\\
+32. i) $f \circ g (x) = 2(x+3)^2 - 18$\\
+$g \circ f (x) = 2x^2 - 15$\\
+ii) $f \circ g : f(4n)$
+\[
+  f\circ g(n) =
+  \begin{cases}
+                                   4n - 2 & \text{si $n = 4k$} \\
+                                   4n + 1 & \text{si $n \neq 4k,$}\: k \in \mathbb{Z} \\
+  \end{cases}
+%
+\]
+$g \circ f:$ \\
+\[
+  g\circ f(n) =
+  \begin{cases}
+                                   4(n-2) & \text{si $n = 4k$} \\
+                                   4(n+1) & \text{si $n \neq 4k,$}\: k \in \mathbb{Z}\\
+                                   
+  \end{cases}
+%
+\]
+iii) Acá todo bien con fog pero no con gof. Fijate: \\
+$f\circ g (n) = (\sqrt[•]{n} + 5, 3\:\sqrt[•]{n})$\\
+PERO $g \circ f: \mathbb{R} \rightarrow \mathbb{R}\times\mathbb{R} \rightarrow \mathbb{N} \rightarrow \mathbb{R}$ Absurdo! \\
+33. $f \circ g = Id_\mathbb{N}$
+\[
+  f(n) =
+  \begin{cases}
+                                   \frac{n}{2} & \text{si n par} \\
+                                   n & \text{si n impar}\\
+                                   
+  \end{cases}
+  \:\:\:\:g(n) = 2n
+%
+\]
+$f \circ g = \frac{2n}{n} = n$
+\[
+  g \circ f(n) =
+  \begin{cases}
+                                   \frac{2n}{2} & \text{si n par$$} \\
+                                   2n & \text{si n impar $$}\\
+                                   
+  \end{cases}
+%
+\]
+Como podemos ver, en el caso impar nos devuelve un numero par, por lo que la distingue de $Id_\mathbb{N}$ y cumple la condición indicada. Qué tul?\\
+34. i)fog es inyectiva... *completar*\\
+35. i) Para probar si es una relación de equivalencia, debemos ver las tres condiciones habituales. Además, el ejercicio nos pide ver si es antisimétrica:\\
+\colorbox{lightgray}{Reflexiva} Como $f$ es biyectiva y el $Codominio=Im(f)$ y es sobreyectiva:\\
+$\{1,...,10\}\subseteq Im(f)$ por ejemplo: $f(1)=1$\\
+$f\mathcal{R}f \Leftrightarrow \exists n \in \{1,...,10\} / f(n) = 1 y f(n) = 1 $\\
+\colorbox{lightgray}{Simétrica} $f \mathcal{R} g \Rightarrow f \mathcal{R} f $\\
+$ \exists n / f(n) = g(n) = 1 \Rightarrow g \mathcal{R} f \Rightarrow g \mathcal{R} f $ \\
+\colorbox{lightgray}{Transitiva} $f \mathcal{R}g \land g\mathcal{R}h \Rightarrow f \mathcal{R}h$\\
+$ \exists n_1 / f(n_1)=g(n_1)=1$\\
+$ \exists n_2 / f(n_2)=h(n_2)=2$\\
+Como $f(n_1)=g(n_2)=1=g(n_2)=h(n_2)$ entonces $f(n_1)=h(n_2)$ y $f\mathcal{R}h$. \\
+$\therefore$ es una relación de equivalencia. \\
+Por último, nos falta probar la antisimetría:\\
+\colorbox{lightgray}{Antisimetría} No. Punto. \\
+ii)\\
+36.\\
+
+\section{Numeros Naturales e Inducción}
+\subsection{Sumatoria y Productoria}
+1. i) \[a)\sum_{k=0}^{100} k\;\;\;\;b) \sum_{k=0}^{10} 2^k \;\;\;\;c)\sum_{k=0}^{11} (-1)^k k^2\;\;\;\;d) \sum_{k=0}^{10} (2k+1)^k \;\;\;\;e)\sum_{k=0}^{2n+1} 2k+1 \;\;\;\;f)\sum_{k=0}^{n} kn  \]
+ii) \[a)\prod{k=5}^{100} k\;\;\;\;b) \prod_{k=0}^{10} 2^k \;\;\;\;c)\prod_{k=1}^{n} kn \]
+2. i) $2+4+...+2(n-5)+2(n-4)$\\
+ii)$\frac{1}{2}+\frac{1}{6}+...+\frac{1}{n(n+1}+\frac{1}{(n+1)(n+2)}+...+\frac{1}{(2n-1)(2n)}+\frac{1}{(2n)(2n+1)}$\\
+iii) $\frac{n+1}{2}+\frac{n+2}{4}+...+\frac{2n}{2n}+\frac{2n+1}{2n}??$\\
+iv) $\frac{n}{1}+\frac{1}{2}+...+\frac{n}{n^2}+\frac{n}{(n+1)^2}$\\
+v) copiar despues\\
+
+3. Calcular.\\
+a) 2n(n+1)+n\\
+b) ...\\
+4.\\
+5. i) El cuadrado es de 7x7, luego $7^2$ lo que coincide con:
+\[\text{} \sum_{i=1}^{7} (2i-1) = 49 \]
+Entonces, el caso para n cuadrados:
+\[\text{} \sum_{i=1}^{n} (2i-1) = n^2 \]
+
+ii) Con suma de Gauss:
+\[\sum_{i=1}^{n} (2i-1) =  2\sum_{i=1}^{n} i -  \sum_{i=1}^{n} n = \frac{2(n(n+1))}{2} - n = n^2+n-n = n^2\]
+iii) Con inducción:
+\[\text{Caso base (n=1)} \sum_{i=1}^{1} (2i-1) = 1 \]
+\[\text{Paso Inductivo}\;\;\;\; HI: \sum_{i=1}^{k} (2i-1) = k^2\;\;\;\; QVQ: \sum_{i=1}^{k+1} (2i-1) = (k+1)^2 \]
+\[\sum_{i=1}^{k+1} (2i-1) = \sum_{i=1}^{k} (2i-1) + 2k + 1 \stackrel{HI}{=} k^2 + 2k + 1 = (k+1)^2 \]
+\hfill$\square $\\
+6.
 
 \end{document}
