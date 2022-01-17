@@ -298,6 +298,8 @@ v) copiar despues\\
 a) 2n(n+1)+n\\
 b) ...\\
 4.\\
+\subsection{Inducción}
+
 5. i) El cuadrado es de 7x7, luego $7^2$ lo que coincide con:
 \[\text{} \sum_{i=1}^{7} (2i-1) = 49 \]
 Entonces, el caso para n cuadrados:
@@ -310,6 +312,33 @@ iii) Con inducción:
 \[\text{Paso Inductivo}\;\;\;\; HI: \sum_{i=1}^{k} (2i-1) = k^2\;\;\;\; QVQ: \sum_{i=1}^{k+1} (2i-1) = (k+1)^2 \]
 \[\sum_{i=1}^{k+1} (2i-1) = \sum_{i=1}^{k} (2i-1) + 2k + 1 \stackrel{HI}{=} k^2 + 2k + 1 = (k+1)^2 \]
 \hfill$\square $\\
-6.
+6.Completar\\
+7.Completar\\
+8. \underline{Caso Base}\\
+\[ P(1) = a^1 - b^1 = (a-b)\sum_{i=1}^{1} a^{i-1}b^{1-i} = a-b \]
+\underline{Paso Inductivo}\\
+\[P(k) V \Rightarrow P(k+1) V\]
+Hipótesis Inductiva(HI):\[ P(k) = a^k - b^k = (a-b)\sum_{i=1}^{k} a^{i-1}b^{k-i} \]
+Quiero ver que(QVQ):\[ P(k+1) = a^{k+1} - b^{k+1} = (a-b)\sum_{i=1}^{k+1} a^{i-1}b^{k+1-i} \]
+
+Reescribimos:\\
+HI: \[ P(k) = \frac{a^{k} - b^{k}}{a-b} = \sum_{i=1}^{k} a^{i-1}b^{k-i} \]
+
+
+\begin{equation} \label{}
+\begin{split}
+P(k+1) & = \frac{a^{k+1} - b^{k+1}}{a-b} = \sum_{i=1}^{k+1}a^{i-1}b^{k+1-i} \\
+ &  = \sum_{i=1}^{k}a^{i-1}b^{k-i}b+a^{(k+1)-1}b^{k+1-(k+1)} \\
+ & \stackrel{HI}{=} b\sum_{i=1}^{k}a^{i-1}b^{k-i}+a^{k} \\
+ & = b \frac{a^{k} - b^{k}}{a-b} +a^{k} \\
+ & = \frac{a^{k}b - b^{k+1}}{a-b} +\frac{a^{k}(a-b)}{a-b} = \frac{a^{k}b - b^{k+1}+a^{k+1}-a^{k}b}{a-b} \\
+ & = \frac{a^{k+1}- b^{k+1}}{a-b}
+\end{split}
+\end{equation}
+\hfill$\square $\\
+Cómo queríamos probar. Para la geométrica se puede plantear [...], luego:\\
+ \[ \frac{a^{n} - 1}{a-1} = \sum_{i=1}^{n} a^{i-1} \]
+9.
+
 
 \end{document}
