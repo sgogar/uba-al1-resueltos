@@ -325,7 +325,7 @@ Reescribimos:\\
 HI: \[ P(k) = \frac{a^{k} - b^{k}}{a-b} = \sum_{i=1}^{k} a^{i-1}b^{k-i} \]
 
 
-\begin{equation} \label{}
+\begin{equation} 
 \begin{split}
 P(k+1) & = \frac{a^{k+1} - b^{k+1}}{a-b} = \sum_{i=1}^{k+1}a^{i-1}b^{k+1-i} \\
  &  = \sum_{i=1}^{k}a^{i-1}b^{k-i}b+a^{(k+1)-1}b^{k+1-(k+1)} \\
@@ -338,7 +338,53 @@ P(k+1) & = \frac{a^{k+1} - b^{k+1}}{a-b} = \sum_{i=1}^{k+1}a^{i-1}b^{k+1-i} \\
 \hfill$\square $\\
 Cómo queríamos probar. Para la geométrica se puede plantear [...], luego:\\
  \[ \frac{a^{n} - 1}{a-1} = \sum_{i=1}^{n} a^{i-1} \]
-9.
+9.i)\underline{Caso Base}\\
+\[ P(1) = \sum_{i=1}^{1} a_{i+1}-a_{i} = a_2 - a_1 \]
+\underline{Paso Inductivo}\\
+\[P(k) V \Rightarrow P(k+1) V\]
+Hipótesis Inductiva(HI):\[ P(k) = \sum_{i=1}^{k} a_{i+1}-a_{i} = a_{k+1} - a_1 \]
+Quiero ver que(QVQ):\[ P(k+1) = \sum_{i=1}^{k+1} a_{i+1}-a_{i} = a_{k+2} - a_1  \]
 
 
+\begin{equation}
+\begin{split}
+P(k+1) & = \sum_{i=1}^{k+1} a_{i+1}-a_{i} = a_{k+2} - a_1 \\
+ & = \sum_{i=1}^{k} a_{i+1}-a_{i} + a_{k+2} - a_{k+1}\\
+ & \stackrel{HI}{=} a_{k+1} - a_1 + a_{k+2} - a_{k+1} \\
+ & = a_{k+2} - a_1
+\end{split}
+\end{equation}
+\hfill$\square $\\
+Cómo queríamos probar.\\
+ii)Acá tenemos que conjeturar en base a lo que nos dan, ya que no tenemos una formula cerrada. Una vez que la encontremos, probamos por inducción nuestra conjetura.\\
+"Conjeturo":\\
+\begin{align*}
+n=1           &           &  & \frac{1}{2}\\
+n=2           &     	  &  \frac{1}{2}+\frac{1}{6}&=\frac{2}{3}\\
+n=3           &           &  \frac{2}{3}+\frac{1}{12}&=\frac{3}{4}
+\end{align*}
+Esto me suena de la forma $\frac{n}{n+1}$ Lo pruebo por inducción:
+\[ P(n) = \sum_{i=1}^{n} \frac{1}{i(i+1)} = \frac{n}{n+1} \]
+
+\underline{Caso Base}\\
+\[ P(1) = \sum_{i=1}^{1} \frac{1}{i(i+1)} = \frac{1}{1+1} = \frac{1}{2} \]
+\underline{Paso Inductivo}\\
+\[P(k) V \Rightarrow P(k+1) V\]
+Hipótesis Inductiva(HI):\[ P(k) = \sum_{i=1}^{k} \frac{1}{i(i+1)} = \frac{k}{k+1} \]
+
+Quiero ver que(QVQ):\[ P(k+1) = \sum_{i=1}^{k+1} \frac{1}{i(i+1)} = \frac{k+1}{k+2} \]
+
+
+
+\begin{equation}
+\begin{split}
+P(k+1) & = \sum_{i=1}^{k+1} \frac{1}{i(i+1)}  \\
+ & = \sum_{i=1}^{k} \frac{1}{i(i+1)} + \frac{1}{(k+1)(k+2)} \\
+ & \stackrel{HI}{=} \frac{1}{k+1} + \frac{1}{(k+1)(k+2)} \\
+ & = \frac{k(k+2)+1}{(k+1)(k+2)} = \frac{(k+1)^2}{(k+1)(k+2)} = \frac{(k+1)}{(k+2)} 
+\end{split}
+\end{equation}
+\hfill$\square $\\
+Cómo queríamos probar.\\
+iii) Calcular... 
 \end{document}
