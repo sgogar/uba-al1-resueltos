@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.20)  17 JAN 2022 01:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.20)  22 JAN 2022 13:45
 entering extended mode
 **./ver0.1.tex
 (ver0.1.tex
@@ -273,8 +273,10 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-)
-(C:\Program Files\MiKTeX\tex/latex/anysize\anysize.sty
+
+(C:\Users\Santi\AppData\Local\Programs\MiKTeX\tex/latex/graphics\dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+)) (C:\Program Files\MiKTeX\tex/latex/anysize\anysize.sty
 Package: anysize 1994/08/13 setting margin sizes
 
 document style option `anysize' loaded
@@ -571,6 +573,9 @@ Package floatrow Info: Modified rotfloat package code loaded on input line 473.
 \LTright=\skip88
 \flrow@types=\toks36
 )
+(C:\Program Files\MiKTeX\tex/latex/setspace\setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
 (C:\Users\Santi\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
@@ -579,24 +584,24 @@ File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
 ) (ver0.1.aux)
 \openout1 = `ver0.1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
 
 (C:\Users\Santi\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -628,7 +633,7 @@ Package caption Info: float package is loaded.
 Package caption Info: floatrow package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 44.
+Package hyperref Info: Link coloring ON on input line 45.
 
 (C:\Users\Santi\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -641,151 +646,215 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count315
 )
-LaTeX Info: Redefining \ref on input line 44.
-LaTeX Info: Redefining \pageref on input line 44.
-LaTeX Info: Redefining \nameref on input line 44.
+LaTeX Info: Redefining \ref on input line 45.
+LaTeX Info: Redefining \pageref on input line 45.
+LaTeX Info: Redefining \nameref on input line 45.
 
 (ver0.1.out) (ver0.1.out)
 \@outlinefile=\write3
 \openout3 = `ver0.1.out'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 64.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 65.
 
 
 (C:\Users\Santi\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 64.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 65.
 
 
 (C:\Users\Santi\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 64
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 65
 .
 
 (C:\Users\Santi\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-Underfull \hbox (badness 10000) in paragraph at lines 82--117
+Underfull \hbox (badness 10000) in paragraph at lines 83--118
 
  []
 
 [1
 
-{C:/Users/Santi/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 179--198
-
- []
-
-[3]
-
-LaTeX Warning: Command \textbullet invalid in math mode on input line 214.
-
-
-LaTeX Warning: Command \textbullet invalid in math mode on input line 214.
-
-Missing character: There is no ˆ in font cmr6!
-
-LaTeX Warning: Command \textbullet invalid in math mode on input line 220.
-
-
-LaTeX Warning: Command \textbullet invalid in math mode on input line 220.
-
-Missing character: There is no ˆ in font cmr6!
-
-LaTeX Warning: Command \textbullet invalid in math mode on input line 220.
-
-
-LaTeX Warning: Command \textbullet invalid in math mode on input line 220.
-
-Missing character: There is no ˆ in font cmr6!
-
-Underfull \hbox (badness 10000) in paragraph at lines 234--236
+{C:/Users/Santi/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [2] [3]
+Underfull \hbox (badness 10000) in paragraph at lines 180--199
 
  []
 
 
-LaTeX Warning: Command \textbullet invalid in math mode on input line 246.
+LaTeX Warning: Command \textbullet invalid in math mode on input line 215.
 
 
-LaTeX Warning: Command \textbullet invalid in math mode on input line 246.
-
-Missing character: There is no ˆ in font cmr6!
-
-LaTeX Warning: Command \textbullet invalid in math mode on input line 246.
-
-
-LaTeX Warning: Command \textbullet invalid in math mode on input line 246.
+LaTeX Warning: Command \textbullet invalid in math mode on input line 215.
 
 Missing character: There is no ˆ in font cmr6!
 
-Underfull \hbox (badness 10000) in paragraph at lines 268--286
+LaTeX Warning: Command \textbullet invalid in math mode on input line 221.
 
- []
 
+LaTeX Warning: Command \textbullet invalid in math mode on input line 221.
+
+Missing character: There is no ˆ in font cmr6!
+
+LaTeX Warning: Command \textbullet invalid in math mode on input line 221.
+
+
+LaTeX Warning: Command \textbullet invalid in math mode on input line 221.
+
+Missing character: There is no ˆ in font cmr6!
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 290--296
+Underfull \hbox (badness 10000) in paragraph at lines 235--237
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 297--301
-
- []
+LaTeX Warning: Command \textbullet invalid in math mode on input line 247.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 313--318
+LaTeX Warning: Command \textbullet invalid in math mode on input line 247.
 
- []
+Missing character: There is no ˆ in font cmr6!
+
+LaTeX Warning: Command \textbullet invalid in math mode on input line 247.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 318--320
+LaTeX Warning: Command \textbullet invalid in math mode on input line 247.
+
+Missing character: There is no ˆ in font cmr6!
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--287
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 337--340
+Underfull \hbox (badness 10000) in paragraph at lines 291--297
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 340--342
+Underfull \hbox (badness 10000) in paragraph at lines 298--302
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 342--344
+Underfull \hbox (badness 10000) in paragraph at lines 314--319
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--321
 
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 356--361
+Underfull \hbox (badness 10000) in paragraph at lines 338--341
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 369--370
+Underfull \hbox (badness 10000) in paragraph at lines 341--343
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 370--372
+Underfull \hbox (badness 10000) in paragraph at lines 343--345
 
  []
 
-[7] (ver0.1.aux)
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 357--360
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 361--363
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 371--372
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 372--374
+
+ []
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 384--387
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 389--391
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 399--400
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 400--402
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 402--404
+
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 423--429
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 440--441
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 441--443
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 443--445
+
+ []
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 447--449
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 455--457
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 461--462
+
+ []
+
+[11] (ver0.1.aux)
 Package rerunfilecheck Info: File `ver0.1.out' has not changed.
 (rerunfilecheck)             Checksum: 2883C11E0F689494B475A39D1B0FE5C3;1088.
  ) 
 Here is how much of TeX's memory you used:
- 14085 strings out of 478927
- 213713 string characters out of 2852534
- 545662 words of memory out of 3000000
- 31695 multiletter control sequences out of 15000+600000
+ 14200 strings out of 478927
+ 215633 string characters out of 2852534
+ 547919 words of memory out of 3000000
+ 31797 multiletter control sequences out of 15000+600000
  417356 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,16n,80p,486b,346s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,16n,80p,486b,338s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\Santi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi
 1095.pk> <C:\Users\Santi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
 0\ecti1095.pk> <C:\Users\Santi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
@@ -804,9 +873,9 @@ s/cm/cmsy10.pfb><C:/Users/Santi/AppData/Local/Programs/MiKTeX/fonts/type1/publi
 c/amsfonts/cm/cmsy8.pfb><C:/Users/Santi/AppData/Local/Programs/MiKTeX/fonts/typ
 e1/public/amsfonts/symbols/msam10.pfb><C:/Users/Santi/AppData/Local/Programs/Mi
 KTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on ver0.1.pdf (7 pages, 200096 bytes).
+Output written on ver0.1.pdf (11 pages, 211967 bytes).
 PDF statistics:
- 331 PDF objects out of 1000 (max. 8388607)
- 18 named destinations out of 1000 (max. 500000)
+ 354 PDF objects out of 1000 (max. 8388607)
+ 24 named destinations out of 1000 (max. 500000)
  57 words of extra memory for PDF output out of 10000 (max. 10000000)
 

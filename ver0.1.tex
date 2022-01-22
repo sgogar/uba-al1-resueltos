@@ -8,7 +8,7 @@
 \usepackage{amsmath,amssymb,amsfonts,latexsym,cancel}	% Paquete para la creaci\'on de ambientes y s\'imbolos matem\'aticos
 \usepackage{amssymb}
 \usepackage{multirow}
-\usepackage[table,xcdraw]{xcolor}
+\usepackage[table,xcdraw,dvipsnames]{xcolor}
 \usepackage{anysize}
 \usepackage{fancyhdr}
 \usepackage{xcolor}	
@@ -18,6 +18,7 @@
 \usepackage[colorlinks=true,backref=true,linkcolor=azul,citecolor=g,urlcolor=azul]{hyperref}
 \IfFileExists{enumitem.sty}{\usepackage{enumitem}}{}
 \usepackage{floatrow}
+\usepackage{setspace}
 \title{Algebra I - Resueltos 2021}
 
 %---------------------------------------------------------------------------------------------------------------------------
@@ -39,7 +40,7 @@
  % \vskip\belowcaptionskip}
 %\makeatother
 
-
+\onehalfspacing
 
 \begin{document}
 \makeatletter
@@ -50,12 +51,12 @@
 \end{center}
 }
 \title{Álgebra I - Ejercicios Resueltos - 2do Cuatrimestre 2021} 
-\author{Santiago García}
+\author{santi}
 \maketitle
 
-Esto es una beta con los ejercicios resueltos de Algebra hasta el primer parcial. Puede contener \textbf{errores}, así como también aciertos. Lo voy a terminar post 15 de Diciembre cuando me libere con los parciales. 
+Esto es una beta con los ejercicios resueltos de Algebra hasta el primer parcial. Acordate que esta hecho por alumnos para alumnos asi que puede contener \textbf{errores}, así como también errores. Lo voy a terminar post 15 de Diciembre cuando me libere con los parciales. 
 
-Muchas gracias a Teresa, Nico, Georgi, Vicky, Juli y Sergio por hacer esto posible [etc]
+Muchas gracias a Teresa, Nico, Georgi, Vicky, Juli y Sergio por hacer esto posible y a mis compañeros Tew, Lucho, Nico, Ivo y Marian gods godeto godines nazi panzer goebbels [etc]
 %\chapter{Conjuntos, Relaciones y Funciones}
 
 \section{Práctica 1 - Conjuntos, Relaciones y Funciones}
@@ -356,6 +357,7 @@ P(k+1) & = \sum_{i=1}^{k+1} a_{i+1}-a_{i} = a_{k+2} - a_1 \\
 \end{equation}
 \hfill$\square $\\
 Cómo queríamos probar.\\
+
 ii)Acá tenemos que conjeturar en base a lo que nos dan, ya que no tenemos una formula cerrada. Una vez que la encontremos, probamos por inducción nuestra conjetura.\\
 "Conjeturo":\\
 \begin{align*}
@@ -371,11 +373,7 @@ Esto me suena de la forma $\frac{n}{n+1}$ Lo pruebo por inducción:
 \underline{Paso Inductivo}\\
 \[P(k) V \Rightarrow P(k+1) V\]
 Hipótesis Inductiva(HI):\[ P(k) = \sum_{i=1}^{k} \frac{1}{i(i+1)} = \frac{k}{k+1} \]
-
 Quiero ver que(QVQ):\[ P(k+1) = \sum_{i=1}^{k+1} \frac{1}{i(i+1)} = \frac{k+1}{k+2} \]
-
-
-
 \begin{equation}
 \begin{split}
 P(k+1) & = \sum_{i=1}^{k+1} \frac{1}{i(i+1)}  \\
@@ -386,5 +384,85 @@ P(k+1) & = \sum_{i=1}^{k+1} \frac{1}{i(i+1)}  \\
 \end{equation}
 \hfill$\square $\\
 Cómo queríamos probar.\\
-iii) Calcular... Ver sugerencia y corregir 
+
+iii) Por la sugerencia, observemos que:
+\[\sum_{i=1}^{n} \frac{1}{(2i-1)(2i+1)} = \frac{1}{2} \sum_{i=1}^{n} \frac{2}{(2i-1)(2i+1)} \]
+Entonces, conjeturando solo la sumatoria del lado derecho de la igualdad:\\
+\begin{align*}
+n=1           &           &  & \frac{2}{3}\\
+n=2           &     	  &  \frac{2}{3}+\frac{2}{15}&=\frac{4}{5}\\
+n=3           &           &  \frac{4}{5}+\frac{2}{35}&=\frac{6}{7}
+\end{align*}
+Luego:
+\[\sum_{i=1}^{n} \frac{1}{(2i-1)(2i+1)} = \frac{1}{2}  \frac{2n}{2n+1} = \frac{n}{2n+1}  \]
+
+Pareciera ser $\frac{n}{2n+1}$ para $n \in \mathbb{N}$. Pruebo por Inducción:\\
+\[ P(n) = \sum_{i=1}^{n} \frac{1}{(2i-1)(2i+1)} = \frac{n}{2n+1} \]
+\underline{Caso Base}\\
+\[ P(1) = \sum_{i=1}^{1} \frac{1}{(2i-1)(2i+1)} = \frac{1}{3} \]
+\underline{Paso Inductivo}\\
+\[P(k) V \Rightarrow P(k+1) V\]
+Hipótesis Inductiva(HI):\[ P(k) = \sum_{i=1}^{k} \frac{1}{(2i-1)(2i+1)} = \frac{k}{2k+1} \]
+Quiero ver que(QVQ):\[ P(k+1) = \sum_{i=1}^{k+1} \frac{1}{(2i-1)(2i+1)} = \frac{k+1}{2k+3} \]
+
+\begin{equation}
+\begin{split}
+ P(k+1) & = \sum_{i=1}^{k+1} \frac{1}{(2i-1)(2i+1)}  \\
+ & = \sum_{i=1}^{k} \frac{1}{(2i-1)(2i+1)} + \frac{1}{(2(k+1)-1)(2(k+1)+1)} \\
+ & \stackrel{HI}{=} \frac{k}{2k+1} +  \frac{1}{(2k+1)(2k+3)} \\
+ & = \frac{k(2k+3)+1}{(2k+1)(2k+3)} = \frac{2k^2+3k+1}{(2k+1)(2k+3)}\\
+ & = \frac{2k^2+3k+1}{4k^2+8k+3} = \frac{2k^2+3k+1}{2(8k^2+4k+\frac{3}{2}} \\
+\end{split}
+\end{equation}
+Factorizando:
+\begin{equation}
+\begin{split}
+ & = \frac{(k+\frac{1}{2})(k+1)}{2(k+\frac{1}{2})(k+\frac{3}{2})} \\
+ & = \frac{(k+1)}{2(k+\frac{3}{2})} = \frac{(k+1)}{2k+3}
+\end{split}
+\end{equation}
+\hfill$\square $\\
+Cómo queríamos probar.\\
+10.Completar. Checkear iv-vii.\\
+11. Prestale atención a este ejercicio porque es GOOOOD. \\
+i) Fijate que nos piden probar que $(a_n)_{n\in\mathbb{N}}$ es una sucesión de numeros reales, todos \textbf{del mismo signo!!} Y que es mayor estricta que -1. Entonces, eso nos deja dos casos posibles:\\
+
+\[a_n > -1, todos\:mismo\:signo 
+\]
+$$
+[ a_n > -1 ]
+\begin{cases}
+(-1, 0) \\
+(0, +\infty)
+\end{cases}
+$$
+
+Planteemos el caso base y paso inductivo. Defino el predicado:\\
+\[ P(n) = \prod_{i=1}^{n}(1+a_i) \geq 1 + \sum_{i=1}^{n} a_i \]
+\underline{Caso Base}\\
+\[ P(1) = \prod_{i=1}^{1}(1+a_i) \geq 1 + \sum_{i=1}^{1} a_i \Leftrightarrow 1 + a_1 \geq 1 + a_1 \]
+\underline{Paso Inductivo}\\
+\[P(k) V \Rightarrow P(k+1) V\]
+Hipótesis Inductiva(HI):\[ P(k) = \prod_{i=1}^{k}(1+a_i) \geq 1 + \sum_{i=1}^{k} a_i \]
+Quiero ver que(QVQ):\[P(k+1) = \colorbox{Cerulean}{$\prod\limits_{i=1}^{k+1}(1+a_i)$} \geq   \colorbox{Apricot}{$1 + \sum\limits_{i=1}^{k+1} a_i $}  \]
+Acá prestale atención a los colorcitos, porque vamos a "separar" ambas partes de la ecuacion para despues manipularlas en nuestra prueba:\\
+
+\[ \colorbox{Cerulean}{$\prod\limits_{i=1}^{k+1}(1+a_i)$} = (1+a_{k+1}) \prod\limits_{i=1}^{k}(1+a_i) \stackrel{HI}{\geq} \colorbox{LimeGreen}{$(1 + \sum\limits_{i=1}^{k} a_i)(1+a_{k+1})$} \]
+
+\[ \colorbox{Apricot}{$1 + \sum\limits_{i=1}^{k+1} a_i $} = 1+a_{k+1} + \sum\limits_{i=1}^{k} a_i \]
+\\
+Entonces tenemos que:
+\[\colorbox{LimeGreen}{$ (1 + \sum\limits_{i=1}^{k} a_i)(1+a_{k+1})$} = 1 + a_{k+1} + \sum\limits_{i=1}^{k} a_i + a_{k+1} \sum\limits_{i=1}^{k} a_i \geq \colorbox{Apricot}{$1 + \sum\limits_{i=1}^{k+1} a_i$} = 1 + \sum\limits_{i=1}^{k} a_i + a_{k+1} \] 
+Elminando términos de la inecuación, nos queda:\\
+\[ a_{k+1} \sum\limits_{i=1}^{k} a_i \geq 0\] 
+
+y como tenemos una multiplicación de dos elementos, y por enunciado, \textbf{todos} los elementos son del \textbf{mismo signo}, entonces o bien $a_{k+1} \land \sum\limits_{i=1}^{k} a_i \geq 0 $ es mayor a cero, o bien $a_k+1 \land \sum\limits_{i=1}^{k} a_i \leq 0 $  lo que cumple que $a_{k+1} \sum\limits_{i=1}^{k} a_i \geq 0$ ya que multiplicar dos elementos con un mismo signo nos da un número positivo.
+ 
+Entonces cómo probamos que p(k) Verdadero entonces p(k+1) Verdadero, y p(1) Verdadero (nuestro Caso Base) entonces p(n) es Verdadero $\forall n\in\mathbb{N}$\\
+
+\hfill$\square $\\
+ii.\\
+12. Probar que:\\
+i. $n! \geq 3^{n-1}, \forall n\geq 5 $
+
 \end{document}
