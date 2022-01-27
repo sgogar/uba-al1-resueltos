@@ -8,7 +8,7 @@
 \usepackage{amsmath,amssymb,amsfonts,latexsym,cancel}	% Paquete para la creaci\'on de ambientes y s\'imbolos matem\'aticos
 \usepackage{amssymb}
 \usepackage{multirow}
-\usepackage[table,xcdraw]{xcolor}
+\usepackage[table,xcdraw,dvipsnames]{xcolor}
 \usepackage{anysize}
 \usepackage{fancyhdr}
 \usepackage{xcolor}	
@@ -18,6 +18,7 @@
 \usepackage[colorlinks=true,backref=true,linkcolor=azul,citecolor=g,urlcolor=azul]{hyperref}
 \IfFileExists{enumitem.sty}{\usepackage{enumitem}}{}
 \usepackage{floatrow}
+\usepackage{setspace}
 \title{Algebra I - Resueltos 2021}
 
 %---------------------------------------------------------------------------------------------------------------------------
@@ -39,7 +40,7 @@
  % \vskip\belowcaptionskip}
 %\makeatother
 
-
+\onehalfspacing
 
 \begin{document}
 \makeatletter
@@ -50,12 +51,12 @@
 \end{center}
 }
 \title{Álgebra I - Ejercicios Resueltos - 2do Cuatrimestre 2021} 
-\author{Santiago García}
+\author{santi}
 \maketitle
 
-Esto es una beta con los ejercicios resueltos de Algebra hasta el primer parcial. Puede contener \textbf{errores}, así como también aciertos. Lo voy a terminar post 15 de Diciembre cuando me libere con los parciales. 
+Esto es una beta con los ejercicios resueltos de Algebra hasta el primer parcial. Acordate que esta hecho por alumnos para alumnos asi que puede contener \textbf{errores}, así como también errores. Lo voy a terminar post 15 de Diciembre cuando me libere con los parciales. 
 
-Muchas gracias a Teresa, Nico, Georgi, Vicky, Juli y Sergio por hacer esto posible [etc]
+Muchas gracias a Teresa, Nico, Georgi, Vicky, Juli y Sergio por hacer esto posible y a mis compañeros Tew, Lucho, Nico, Ivo y Marian[etc]
 %\chapter{Conjuntos, Relaciones y Funciones}
 
 \section{Práctica 1 - Conjuntos, Relaciones y Funciones}
@@ -356,6 +357,7 @@ P(k+1) & = \sum_{i=1}^{k+1} a_{i+1}-a_{i} = a_{k+2} - a_1 \\
 \end{equation}
 \hfill$\square $\\
 Cómo queríamos probar.\\
+
 ii)Acá tenemos que conjeturar en base a lo que nos dan, ya que no tenemos una formula cerrada. Una vez que la encontremos, probamos por inducción nuestra conjetura.\\
 "Conjeturo":\\
 \begin{align*}
@@ -371,11 +373,7 @@ Esto me suena de la forma $\frac{n}{n+1}$ Lo pruebo por inducción:
 \underline{Paso Inductivo}\\
 \[P(k) V \Rightarrow P(k+1) V\]
 Hipótesis Inductiva(HI):\[ P(k) = \sum_{i=1}^{k} \frac{1}{i(i+1)} = \frac{k}{k+1} \]
-
 Quiero ver que(QVQ):\[ P(k+1) = \sum_{i=1}^{k+1} \frac{1}{i(i+1)} = \frac{k+1}{k+2} \]
-
-
-
 \begin{equation}
 \begin{split}
 P(k+1) & = \sum_{i=1}^{k+1} \frac{1}{i(i+1)}  \\
@@ -386,5 +384,159 @@ P(k+1) & = \sum_{i=1}^{k+1} \frac{1}{i(i+1)}  \\
 \end{equation}
 \hfill$\square $\\
 Cómo queríamos probar.\\
-iii) Calcular... 
+
+iii) Por la sugerencia, observemos que:
+\[\sum_{i=1}^{n} \frac{1}{(2i-1)(2i+1)} = \frac{1}{2} \sum_{i=1}^{n} \frac{2}{(2i-1)(2i+1)} \]
+Entonces, conjeturando solo la sumatoria del lado derecho de la igualdad:\\
+\begin{align*}
+n=1           &           &  & \frac{2}{3}\\
+n=2           &     	  &  \frac{2}{3}+\frac{2}{15}&=\frac{4}{5}\\
+n=3           &           &  \frac{4}{5}+\frac{2}{35}&=\frac{6}{7}
+\end{align*}
+Luego:
+\[\sum_{i=1}^{n} \frac{1}{(2i-1)(2i+1)} = \frac{1}{2}  \frac{2n}{2n+1} = \frac{n}{2n+1}  \]
+
+Pareciera ser $\frac{n}{2n+1}$ para $n \in \mathbb{N}$. Pruebo por Inducción:\\
+\[ P(n) = \sum_{i=1}^{n} \frac{1}{(2i-1)(2i+1)} = \frac{n}{2n+1} \]
+\underline{Caso Base}\\
+\[ P(1) = \sum_{i=1}^{1} \frac{1}{(2i-1)(2i+1)} = \frac{1}{3} \]
+\underline{Paso Inductivo}\\
+\[P(k) V \Rightarrow P(k+1) V\]
+Hipótesis Inductiva(HI):\[ P(k) = \sum_{i=1}^{k} \frac{1}{(2i-1)(2i+1)} = \frac{k}{2k+1} \]
+Quiero ver que(QVQ):\[ P(k+1) = \sum_{i=1}^{k+1} \frac{1}{(2i-1)(2i+1)} = \frac{k+1}{2k+3} \]
+
+\begin{equation}
+\begin{split}
+ P(k+1) & = \sum_{i=1}^{k+1} \frac{1}{(2i-1)(2i+1)}  \\
+ & = \sum_{i=1}^{k} \frac{1}{(2i-1)(2i+1)} + \frac{1}{(2(k+1)-1)(2(k+1)+1)} \\
+ & \stackrel{HI}{=} \frac{k}{2k+1} +  \frac{1}{(2k+1)(2k+3)} \\
+ & = \frac{k(2k+3)+1}{(2k+1)(2k+3)} = \frac{2k^2+3k+1}{(2k+1)(2k+3)}\\
+ & = \frac{2k^2+3k+1}{4k^2+8k+3} = \frac{2k^2+3k+1}{2(8k^2+4k+\frac{3}{2}} \\
+\end{split}
+\end{equation}
+Factorizando:
+\begin{equation}
+\begin{split}
+ & = \frac{(k+\frac{1}{2})(k+1)}{2(k+\frac{1}{2})(k+\frac{3}{2})} \\
+ & = \frac{(k+1)}{2(k+\frac{3}{2})} = \frac{(k+1)}{2k+3}
+\end{split}
+\end{equation}
+\hfill$\square $\\
+Cómo queríamos probar.\\
+10.Completar. Checkear iv-vii.\\
+11. Prestale atención a este ejercicio porque es GOOOOD. \\
+i) Fijate que nos piden probar que $(a_n)_{n\in\mathbb{N}}$ es una sucesión de numeros reales, todos \textbf{del mismo signo!!} Y que es mayor estricta que -1. Entonces, eso nos deja dos casos posibles:\\
+
+\[a_n > -1, todos\:mismo\:signo 
+\]
+$$
+[ a_n > -1 ]
+\begin{cases}
+(-1, 0) \\
+(0, +\infty)
+\end{cases}
+$$
+
+Planteemos el caso base y paso inductivo. Defino el predicado:\\
+\[ P(n) = \prod_{i=1}^{n}(1+a_i) \geq 1 + \sum_{i=1}^{n} a_i \]
+\underline{Caso Base}\\
+\[ P(1) = \prod_{i=1}^{1}(1+a_i) \geq 1 + \sum_{i=1}^{1} a_i \Leftrightarrow 1 + a_1 \geq 1 + a_1 \]
+\underline{Paso Inductivo}\\
+\[P(k) V \Rightarrow P(k+1) V\]
+Hipótesis Inductiva(HI):\[ P(k) = \prod_{i=1}^{k}(1+a_i) \geq 1 + \sum_{i=1}^{k} a_i \]
+Quiero ver que(QVQ):\[P(k+1) = \colorbox{Cerulean}{$\prod\limits_{i=1}^{k+1}(1+a_i)$} \geq   \colorbox{Apricot}{$1 + \sum\limits_{i=1}^{k+1} a_i $}  \]
+Acá prestale atención a los colorcitos, porque vamos a "separar" ambas partes de la ecuacion para despues manipularlas en nuestra prueba:\\
+
+\[ \colorbox{Cerulean}{$\prod\limits_{i=1}^{k+1}(1+a_i)$} = (1+a_{k+1}) \prod\limits_{i=1}^{k}(1+a_i) \stackrel{HI}{\geq} \colorbox{LimeGreen}{$(1 + \sum\limits_{i=1}^{k} a_i)(1+a_{k+1})$} \]
+
+\[ \colorbox{Apricot}{$1 + \sum\limits_{i=1}^{k+1} a_i $} = 1+a_{k+1} + \sum\limits_{i=1}^{k} a_i \]
+\\
+Entonces tenemos que:
+\[\colorbox{LimeGreen}{$ (1 + \sum\limits_{i=1}^{k} a_i)(1+a_{k+1})$} = 1 + a_{k+1} + \sum\limits_{i=1}^{k} a_i + a_{k+1} \sum\limits_{i=1}^{k} a_i \geq \colorbox{Apricot}{$1 + \sum\limits_{i=1}^{k+1} a_i$} = 1 + \sum\limits_{i=1}^{k} a_i + a_{k+1} \] 
+Elminando términos de la inecuación, nos queda:\\
+\[ a_{k+1} \sum\limits_{i=1}^{k} a_i \geq 0\] 
+
+y como tenemos una multiplicación de dos elementos, y por enunciado, \textbf{todos} los elementos son del \textbf{mismo signo}, entonces o bien $a_{k+1} \land \sum\limits_{i=1}^{k} a_i \geq 0 $ es mayor a cero, o bien $a_k+1 \land \sum\limits_{i=1}^{k} a_i \leq 0 $  lo que cumple que $a_{k+1} \sum\limits_{i=1}^{k} a_i \geq 0$ ya que multiplicar dos elementos con un mismo signo nos da un número positivo.
+ 
+Entonces cómo probamos que p(k) Verdadero entonces p(k+1) Verdadero, y p(1) Verdadero (nuestro Caso Base) entonces p(n) es Verdadero $\forall n\in\mathbb{N}$\\
+
+\hfill$\square $\\
+ii.\\
+12. Probar que:\\
+i. $n! \geq 3^{n-1}, \forall n\geq 5 $\\
+
+Estamos con un típico ejercicio de inducción corrida. Fijate que arranca para todo n mayor o igual a 5, por lo tanto nuestro caso base lo tendremos que probar a partir de ese número.
+Lo pruebo por inducción:\\
+\[ P(n) = n! \geq 3^{n-1} \]
+\underline{Caso Base}\\
+\[ P(5) = 5! \geq 3^{4} \] 
+\underline{Paso Inductivo}\\
+\[P(k) V \Rightarrow P(k+1) V\]
+Hipótesis Inductiva(HI):\[ P(k) = k! \geq 3^{k-1} \]
+Quiero ver que(QVQ):\[ P(k+1) = (k+1)! \geq 3^{k} \]
+
+\begin{align*}
+\begin{split}
+ (k+1)! = k!(k+1) \geq 3^{k-1}(k+1) & \geq 3^k  \\
+ k+1 & \geq 3^{k-(k-1)} \\
+ k & \geq 3 - 1 \\
+ k & \geq 2\\
+\end{split}
+\end{align*}
+y como $k \geq 5$ esto es verdadero. Por lo tanto, nuestro paso inductivo es verdadero, y como el caso base es verdadero, entonces $p(n)$ verdadero $\forall n \in \mathbb{N}$.
+\hfill$\square$\\
+ii. $3^n - 2^n > n^3, \forall n \geq 4$\\
+Lo pruebo por inducción:\\
+\[ P(n) = 3^n - 2^n > n^3 \]
+\underline{Caso Base}\\
+\[ P(4) = 3^4 - 2^4 > 4^3 \] 
+\underline{Paso Inductivo}\\
+\[P(k) V \Rightarrow P(k+1) V\]
+Hipótesis Inductiva(HI):\[ P(k) = 3^k - 2^k > k^3 \]
+Quiero ver que(QVQ):\[ P(k+1) = 3^{k+1} - 2^{k+1} > (k+1)^3 \]
+Recordemos que: $ a>b \Leftrightarrow \colorbox{LimeGreen}{x} + a > \colorbox{LimeGreen}{x} + b  $\\
+\begin{align*}
+\begin{split}
+\colorbox{TealBlue}{$3^{k+1} - 2^{k+1}$} = 3\cdot 3^{k} - 2\cdot 2^{k} = \colorbox{LimeGreen}{$2\cdot 3^{k} -  2^{k}$} + \colorbox{Apricot}{$3^k - 2^k$} \stackrel{\colorbox{Apricot}{HI}}{>} \colorbox{LimeGreen}{$2\cdot 3^{k} -  2^{k}$} + \colorbox{Apricot}{$k^3$} & \stackrel{\colorbox{TealBlue}{{QVQ}}}{>} \colorbox{TealBlue}{$(k+1)^3$} \\
+ \textit{Y como arranca desde $4 \geq 0$ va a estar acotado por  } 2\cdot 3^4 - 2^4 + 4^3 & > 5^3\\
+ \textit{Tenemos que: } \underset{\geq 162}{2\cdot 3^{k} -  2^{k}} + \underset{\geq 64}{k^3} & >\underset{\geq 125}{(k+1)^3}\\
+\end{split}
+\end{align*}
+y como $k \geq 4$ esto es verdadero. Por lo tanto, nuestro paso inductivo es verdadero, y como el caso base es verdadero, entonces $p(n)$ verdadero $\forall n \in \mathbb{N}$.\\
+.$\hfill \square$\\
+iii. $\sum\limits_{i=1}^{n} \frac{3^i}{i!} < 6n-5, \forall n \geq 3 $
+Lo pruebo por inducción:\\
+\[ P(n) =  \sum\limits_{i=1}^{n} \frac{3^i}{i!} < 6n-5, \forall n \geq 3 \]
+\underline{Caso Base}\\
+\[ P(3) = \sum\limits_{i=1}^{3} \frac{3^i}{i!} = 3 + \frac{3^2}{2!} + \frac{3^3}{3!} < 6(3)-5 \Leftrightarrow 12 < 13 \] 
+\underline{Paso Inductivo}\\
+\[P(k) V \Rightarrow P(k+1) V\]
+Hipótesis Inductiva(HI):\[ P(k) =  \sum\limits_{i=1}^{k} \frac{3^i}{i!} < 6k-5 \]
+Quiero ver que(QVQ):\[ P(k+1) =  \sum\limits_{i=1}^{k+1} \frac{3^i}{i!} < 6k + 1\]
+
+\[ P(k+1) =  \sum\limits_{i=1}^{k+1} \frac{3^i}{i!} = \sum\limits_{i=1}^{k} \frac{3^i}{i!} + \frac{3^{k+1}}{(k+1)!} < 6k - 5 + \frac{3^{k+1}}{(k+1)!} < 6k+1 \]
+
+Como $k \geq 3$ entonces cumple la desigualdad por acotacion. Luego, por ppio. de induccion corrido, $p(3)$ verdadero y $p(k) V \Rightarrow P(k+1)V$ entonces $p(n)$ verdadero $\forall n \in \mathbb{N}$
+\hfill$\square$\\
+13. El Caso Base arranca en 5. Probemos que $n \geq 5$ por induccion.
+\[ P(n) =  n^2 + 1 < 2^n \]
+\underline{Caso Base}\\
+\[ P(5) = 5^2 + 1 < 2^5 \;\;\textit{Verdadero.} \] 
+\underline{Paso Inductivo}\\
+\[P(k) V \Rightarrow P(k+1) V\]
+Hipótesis Inductiva(HI):\[ P(k) =  k^2 + 1 < 2^k \]
+Quiero ver que(QVQ):\[ P(k+1) =  (k+1)^2 + 1 < 2^{k+1} \]
+Como vimos anteriormente que $n^2 +1 < 2^n$ es equivalente a $2^n > n^2 +1$, podemos expresar el paso inductivo como:\\
+\begin{align*}
+\begin{split}
+2^{k+1}=2 \cdot 2^k \overset{HI}{>} 2(k^2+1) & \overset{qvq}{>} (k+1)^2 +1\\
+2k^2 + 1 & > (k+1)^2 \\
+k^2 & > 2k \\
+\underset{\geq 25}{k^2} - \underset{\geq 10}{2k} & > 0 \\
+\textit{pues $k \geq 5$ entonces es verdadero}
+\end{split}
+\end{align*}
+Por lo tanto, por principio de inducción corrida, cómo nuestro caso base $p(5)\;\;verdadero$  y $p(k) \;\;verdadero \Rightarrow p(k+1)\;\;verdadero$ luego $p(n)\;\;verdadero, \forall n \in \mathbb{N}_{\geq 5}$
+\hfill$\square$\\
+14.
 \end{document}
