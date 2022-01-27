@@ -538,5 +538,66 @@ k^2 & > 2k \\
 \end{align*}
 Por lo tanto, por principio de inducción corrida, cómo nuestro caso base $p(5)\;\;verdadero$  y $p(k) \;\;verdadero \Rightarrow p(k+1)\;\;verdadero$ luego $p(n)\;\;verdadero, \forall n \in \mathbb{N}_{\geq 5}$
 \hfill$\square$\\
-14.
+14. Probar que para todo $n \geq 3$ vale que:\\
+i) La cantidad de diagonales de un poligono de n lados es $\dfrac{n(n-3)}{2}$\\
+
+Ponele que $(L_n)_{n\in\mathbb{N}}$ va a ser una sucesión, le pongo L por lados (y si).  Entonces vamos a tener que nuestra preposicion, $p(n)$ va a estar definida por: \\
+\[p(n) := L_n = \dfrac{n(n-3)}{2}\]
+
+Para nuestro \textsc{caso base} fijate que vamos a arrancar a contar desde el 3, ya que 3 es el \textbf{mínimo} de lados para formar un polígono (un triángulo, Pitágoras Fan Club):
+
+\[p(3) := L_3 = \dfrac{3(3-3)}{2} = 0\]
+
+Y esto está perfecto! Fijate que si es un triángulo no hay manera de que nos queden diagonales. Ahora, pasando al \textsc{paso inductivo} se viene lo jodido. O no. Planteamos:\\
+Hipótesis Inductiva(HI):\[ p(k) := L_{k} =\dfrac{k(k-3)}{2} \]
+Quiero ver que(QVQ):\[ p(k+1) := L_{k+1} = \dfrac{(k+1)(k-2)}{2} \]
+
+Acá usamos un truquito que es una propiedad de las sucesiones (?? checkear, no estaba claro en mi cuaderno): $a_{n+1} = a_n + a_{n-1}$ \\
+Entonces nos queda: \\
+$ L_{k+1}  = \underset{HI}{L_k} + (k-1) = \dfrac{k(k-3)}{2} + (k-1) = \dfrac{k(k-3)+2(k-1)}{2} = \dfrac{k^2-k-2}{2}=\dfrac{(k+1)(k-2)}{2}$\\
+entonces por induccion blabla...\hfill$\square$\\
+ii) la suma de los ángulos interiores de un polígono de n lados es $\pi (n-2)$\\
+\[p(n):= \alpha_n = \pi(n-2)\]
+
+\textsc{Caso Base}:\\
+\[p(3):= \alpha_3 = \pi(3-2)=180\deg \]
+\textsc{Paso Inductivo}:\\
+Hipótesis Inductiva(HI):\[p(k):= \alpha_k = \pi(k-2)\]
+Quiero ver que(QVQ):\[p(k+1):= \alpha_{k+1} = \pi(k-1)\]
+
+\begin{align*}
+\begin{split}
+\alpha_{k+1} & = \alpha_k + \pi \\
+\alpha_{k+1} & = \pi (k-2) + pi \\
+\alpha_{k+1} & = \pi (k - 1) \\
+\end{split}
+\end{align*}
+
+Notemos que se utilizó lo mismo visto en el inciso anterior.
+\hfill$\square$
+\subsection{Recurrencia}
+15. i) Sea $(a_n)_{n \in \mathbb{N}}$ la sucesión de numeros reales definida recursivamente por: 
+
+\[a_1 = 2 \;\;\;y\;\;\; a_{n+1}=2n a_n + 2^{n+1} n!, \forall n \in \mathbb{N} \]
+
+Probar que $a_n = 2^n n!$\\
+
+\[p(n) := a_n = 2^n n!\]
+\textsc{Caso Base}:\\
+\[p(1):= a_1 = 2^1 1! = 2 \]
+\textsc{Paso Inductivo}:\\
+Hipótesis Inductiva(HI):\[p(k):= a_k = 2^k k!\]
+Quiero ver que(QVQ):\[p(k+1):= a_{k+1} = 2^k k!\]
+
+Por $\textit{definición}$ del enunciado sabemos que $a_k+1 = 2k a_k + 2^{k+1} k!$. Nuestra HI dice que $\colorbox{Apricot}{$a_k = 2^k k!$}$, y reemplazando:\\
+\begin{align*}
+a_k+1 & = 2k\; \colorbox{Apricot}{$a_k$} + 2^{k+1} k! \\
+      & = 2k \colorbox{Apricot}{$2^k k!$} + 2^{k+1} k! \\
+      & = 2^k (2k \cdot k! + 2 \cdot k!) \\
+      & = 2^k (2k! (k + 1)) \\
+      & = 2^k 2k! (k+1) = 2^{k+1} (k+1) k! = 2^{k+1} (k+1)!
+\end{align*}
+Como queriamos probar. 
+\hfill$\square$
+ii) 
 \end{document}

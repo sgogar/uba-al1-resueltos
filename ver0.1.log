@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.20)  27 JAN 2022 16:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.20)  27 JAN 2022 17:12
 entering extended mode
 **./ver0.1.tex
 (ver0.1.tex
@@ -913,40 +913,76 @@ Underfull \hbox (badness 10000) in paragraph at lines 528--530
 
  []
 
-[13] [14] (ver0.1.aux)
+
+Underfull \hbox (badness 10000) in paragraph at lines 538--543
+
+ []
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 544--545
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 555--560
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 562--563
+
+ []
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 583--584
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 585--587
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 592--593
+
+ []
+
+[15] (ver0.1.aux)
 Package rerunfilecheck Info: File `ver0.1.out' has not changed.
-(rerunfilecheck)             Checksum: 2883C11E0F689494B475A39D1B0FE5C3;1088.
+(rerunfilecheck)             Checksum: 032101299E10F2A705306A4CD3E327F7;1200.
  ) 
 Here is how much of TeX's memory you used:
- 14207 strings out of 478927
- 215696 string characters out of 2852534
+ 14213 strings out of 478927
+ 215768 string characters out of 2852534
  547919 words of memory out of 3000000
- 31799 multiletter control sequences out of 15000+600000
- 418729 words of font info for 66 fonts, out of 8000000 for 9000
+ 31802 multiletter control sequences out of 15000+600000
+ 419405 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,19n,80p,486b,338s stack positions out of 5000i,500n,10000p,200000b,80000s
- <C:\Users\Santi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi
+ <C:\Users\Santi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc
 1095.pk> <C:\Users\Santi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-0\ecti1095.pk> <C:\Users\Santi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
-/dpi600\ecbx1200.pk> <C:\Users\Santi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
-pen/ec/dpi600\ecbx1440.pk> <C:\Users\Santi\AppData\Local\MiKTeX\fonts/pk/ljfour
-/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\Santi\AppData\Local\MiKTeX\fonts/pk/
-ljfour/jknappen/ec/dpi600\ecbx1095.pk><C:/Users/Santi/AppData/Local/Programs/Mi
-KTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Santi/AppData/Local/Pr
-ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Santi/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Santi
-/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Use
-rs/Santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb
-><C:/Users/Santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
-mr6.pfb><C:/Users/Santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
-ts/cm/cmr8.pfb><C:/Users/Santi/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/amsfonts/cm/cmsy10.pfb><C:/Users/Santi/AppData/Local/Programs/MiKTeX/fonts/typ
-e1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Santi/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/Santi/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on ver0.1.pdf (14 pages, 230898 bytes).
+0\ecbi1095.pk> <C:\Users\Santi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\ecti1095.pk> <C:\Users\Santi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
+pen/ec/dpi600\ecbx1200.pk> <C:\Users\Santi\AppData\Local\MiKTeX\fonts/pk/ljfour
+/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\Santi\AppData\Local\MiKTeX\fonts/pk/
+ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\Santi\AppData\Local\MiKTeX\fon
+ts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk><C:/Users/Santi/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Santi/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Santi/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users
+/Santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><
+C:/Users/Santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr
+10.pfb><C:/Users/Santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmr6.pfb><C:/Users/Santi/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmr8.pfb><C:/Users/Santi/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmsy10.pfb><C:/Users/Santi/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Santi/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/Santi/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on ver0.1.pdf (15 pages, 244464 bytes).
 PDF statistics:
- 379 PDF objects out of 1000 (max. 8388607)
- 27 named destinations out of 1000 (max. 500000)
- 57 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 411 PDF objects out of 1000 (max. 8388607)
+ 29 named destinations out of 1000 (max. 500000)
+ 65 words of extra memory for PDF output out of 10000 (max. 10000000)
 
