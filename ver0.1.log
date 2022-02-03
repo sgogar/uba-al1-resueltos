@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.20)  27 JAN 2022 17:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.20)  2 FEB 2022 20:11
 entering extended mode
 **./ver0.1.tex
 (ver0.1.tex
@@ -939,27 +939,151 @@ Underfull \hbox (badness 10000) in paragraph at lines 583--584
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 585--587
+Underfull \hbox (badness 10000) in paragraph at lines 584--586
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 592--593
+Underfull \hbox (badness 10000) in paragraph at lines 604--605
 
  []
 
-[15] (ver0.1.aux)
+
+Underfull \hbox (badness 10000) in paragraph at lines 605--607
+
+ []
+
+[15]
+
+LaTeX Warning: Command \textbullet invalid in math mode on input line 621.
+
+
+LaTeX Warning: Command \textbullet invalid in math mode on input line 621.
+
+Missing character: There is no ˆ in font cmr6!
+
+Underfull \hbox (badness 10000) in paragraph at lines 617--623
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 630--632
+
+ []
+
+
+LaTeX Warning: Command \textbullet invalid in math mode on input line 636.
+
+
+LaTeX Warning: Command \textbullet invalid in math mode on input line 636.
+
+Missing character: There is no ˆ in font cmr6!
+
+Underfull \hbox (badness 10000) in paragraph at lines 635--637
+
+ []
+
+
+LaTeX Warning: Command \textbullet invalid in math mode on input line 637.
+
+
+LaTeX Warning: Command \textbullet invalid in math mode on input line 637.
+
+Missing character: There is no ˆ in font cmr6!
+
+LaTeX Warning: Command \textbullet invalid in math mode on input line 637.
+
+
+LaTeX Warning: Command \textbullet invalid in math mode on input line 637.
+
+Missing character: There is no ˆ in font cmr6!
+
+Underfull \hbox (badness 10000) in paragraph at lines 637--642
+
+ []
+
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 649--651
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 654--656
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 656--661
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 669--671
+
+ []
+
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 674--676
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 676--681
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 688--690
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 693--695
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 699--701
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 702--703
+
+ []
+
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 716--719
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 723--725
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 725--735
+
+ []
+
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 737--741
+
+ []
+
+[20] (ver0.1.aux)
 Package rerunfilecheck Info: File `ver0.1.out' has not changed.
-(rerunfilecheck)             Checksum: 032101299E10F2A705306A4CD3E327F7;1200.
+(rerunfilecheck)             Checksum: D574A351093DC0E11BB889161D09CCE3;2034.
  ) 
 Here is how much of TeX's memory you used:
- 14213 strings out of 478927
- 215768 string characters out of 2852534
+ 14224 strings out of 478927
+ 215883 string characters out of 2852534
  547919 words of memory out of 3000000
- 31802 multiletter control sequences out of 15000+600000
+ 31805 multiletter control sequences out of 15000+600000
  419405 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,19n,80p,486b,338s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,19n,80p,555b,344s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\Santi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc
 1095.pk> <C:\Users\Santi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
 0\ecbi1095.pk> <C:\Users\Santi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
@@ -980,9 +1104,9 @@ public/amsfonts/cm/cmsy10.pfb><C:/Users/Santi/AppData/Local/Programs/MiKTeX/fon
 ts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Santi/AppData/Local/Programs/Mi
 KTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/Santi/AppData/Loc
 al/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on ver0.1.pdf (15 pages, 244464 bytes).
+Output written on ver0.1.pdf (20 pages, 267286 bytes).
 PDF statistics:
- 411 PDF objects out of 1000 (max. 8388607)
- 29 named destinations out of 1000 (max. 500000)
- 65 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 457 PDF objects out of 1000 (max. 8388607)
+ 37 named destinations out of 1000 (max. 500000)
+ 89 words of extra memory for PDF output out of 10000 (max. 10000000)
 
