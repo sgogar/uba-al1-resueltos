@@ -81,7 +81,6 @@ A=\{1, -2, 7, 3\} , B=\{1, \{3\}, 10\} C=\{-2, \{1,2,3\}, 3\}
 \[(A \cap B)=\{1\}\:y\:(A \cap C)=\{-2,3\}\]
 \[(A \cap B) \triangle (A \cap C)=\{1,-2,3\}\]
 \[iii) A^{c}\cap B^{c}\cap C^{c}\:\:bueno \:hacelo\: vos.\]
-asdasdasd\\
 5. Dados \(A\;B\;C\) subconjuntos de un conjunto ref V, describir \((A\cap B\cap C)^{c}\) en terminos de\\
 \textit{Intersecciones y complentos:}\\
 \(((A\cap B)\cap C)^{c}\:\:\:\:\:\:\:\:Por\:asociatividad\: de\: la\: union\)\\
@@ -759,8 +758,130 @@ Ya que serian 10 cifras en cada "bloque", sacando el 0 y 5 del primero(ya que so
 ii) Si contienen al digito 7, podemos equivalentemente "sacar" al 7 como hicimos anteriormente con el 5, y nos daría que los que \textbf{no} tienen al 7 son 5832. Sin embargo, para sacar los que tienen, debemos restar esta cifra a nuestro conjunto universal o referencial, que en este caso su cardinal es de 9000 ya que los numeros de 4 cifras son aquellos contenidos entre $\{999 < x < 10000 / x \in \mathbb{N}\}$ Por lo tanto nos queda que $9000 - 5832 = 3168$ números de 4 cifras que contienen al dígito 7.
 7.Como se vio en la teorica, este tipo de ejercicios es muy simple. María tiene 17 libros y 3 cajas, por lo tanto:\\
 $\#cajas^{\#libros} = 3^17$ maneras.\\
-8.
+8.i) $A = \{M_1, M_2, M_3, M_4, M_5\} + \underset{(\emptyset)}{M_0}, \#M_0=1$\\
+$\mathcal{P}(A)=\{\emptyset, \{M_1\}, \{M_1, M_2\}...\}$\\
+$\mathcal{P}(A)=2^{\#A}=2^5=32$ formas. (Y como $\emptyset \subseteq \mathcal{P}(A)$ contempla cursar cero materias).\\
+ii) $2^5 - \underset{(2^1)}{5}-1=26$\\
+9. Cantidad de relaciones: $\#(A \times A)= \#A \cdot \#A = 2^{n^2}$\\
+Cuantas son reflexivas? $n$ pues las que se repiten seran $(n, n)$\\
+Cuantas son simetricas? $n_1 \mathcal{R} n_2 \Rightarrow n_2 \mathcal{R} n_1$ y se que $n1, n2\in A \Rightarrow$ las relaciones simetricas son $n^2$ porque le sumo n de las ref que son simetricas. (Corregir,expresar mejor)\\
+10.i) $12^5$\\ 
+ii) $11^5$ no tienen el $10$\\
+iii) $\underset{(1)}{12^5}-\underset{(2)}{11^5} = 87.781$\\
+(1) Todas las funciones (2) las que $10\not\in Im(f)$\\
+iv)$\underset{3}{\underline{f(1)\hspace{0.5cm}}}\hspace{0.1cm}
+\underset{12}{\underline{f(2)\hspace{0.5cm}}}\hspace{0.1cm}
+\underset{12}{\underline{f(3)\hspace{0.5cm}}}\hspace{0.1cm}
+\underset{12}{\underline{f(4)\hspace{0.5cm}}}\hspace{0.1cm}
+\underset{12}{\underline{f(5)\hspace{0.5cm}}}\hspace{0.1cm}
+= 3 \cdot 12^4 = 62.208$\\
+11. i)$\#A = \#B \Rightarrow \#\mathcal{F}=n!$\\
+$7!$ Cantidad de funciones.\\
+ii) $3! \cdot 4!$(adjuntar explicacion)\\
+12. Numeros de 5 cifras usando los digitos del 1 al 5: $5!$\\
+Del 1 al 7: $\dfrac{7!}{2!}=7\cdot 6 \cdot 5\cdot 4 \cdot 3$\\
+$\dfrac{7!}{2!} - (6 \cdot 5 \cdot 4 \cdot 3) = 2160$ (adjuntar explicaciones)
+13. i) $\#A \leq \#B \Rightarrow m \leq n$ y por la teoria sabemos que cantidad de funciones inyectivas se cuenta: $\dfrac{n!}{(n-m)!} \Rightarrow \dfrac{10!}{3!} = 604.800$\\
+ii) 
+Tales que f(1) es par:\\
+$\underset{3}{\underline{f(1)\hspace{0.5cm}}}\hspace{0.1cm}
+\underset{12}{\underline{f(2)\hspace{0.5cm}}}\hspace{0.1cm}
+\underset{12}{\underline{f(3)\hspace{0.5cm}}}\hspace{0.1cm}
+\underset{12}{\underline{f(4)\hspace{0.5cm}}}\hspace{0.1cm}
+\underset{12}{\underline{f(5)\hspace{0.5cm}}}\hspace{0.1cm}
+= 3 \cdot 12^4 = 62.208$\\
+Tales que f(1) y f(2) son pares:\\
+$\underset{3}{\underline{f(1)\hspace{0.5cm}}}\hspace{0.1cm}
+\underset{12}{\underline{f(2)\hspace{0.5cm}}}\hspace{0.1cm}
+\underset{12}{\underline{f(3)\hspace{0.5cm}}}\hspace{0.1cm}
+\underset{12}{\underline{f(4)\hspace{0.5cm}}}\hspace{0.1cm}
+\underset{12}{\underline{f(5)\hspace{0.5cm}}}\hspace{0.1cm}
+= 3 \cdot 12^4 = 62.208$\\
+14.$\dfrac{5!}{2!} \cdot 4$\\
+15.\\
+16.\\
 \subsection{Número Combinatorio}
+17. i.$ {7 \choose 4}= \dfrac{7!}{4!(7-4)!} = 35$\\
+ii. $ {6 \choose 3} = 20$\\
+iii. $ {7 \choose 4} - {6 \choose 3} = 35 - 20 = 15$\\
+iv. $2 \cdot {5 \choose 3} = 20$\\
+18.i. $ {6 \choose 4} \cdot {14 \choose 6}$\\
+ii.  $2 \cdot {10 \choose 5} = 504$\\
+19. ${m \choose 2} \cdot n + {n \choose 2} \cdot m$\\
+20. Determinar cuantas funciones...\\
+Analizando las condiciones:
+\begin{enumerate}
+\item f es inyectiva:\\
+Considerando que f es inyectiva, y que tenemos 11 elementos en el dominio y 16 en el codominio, llamemos $A$ al dominio y $B$ al codominio, por lo tanto por lo visto en ejercicios anteriores tenemos que:\\
+$\dfrac{\#B!}{(\#A-\#B)!} = \dfrac{16!}{(16-11)!} = \dfrac{16!}{5!}$
+\item Si n es par, f(n) es par:\\
+Este item lo podemos expresar como $f(2n) = 2n$
+\item $f(1)\leqslant f(3)\leqslant f(5)\leqslant f(7)$\\
+Para que este item se cumpla, debemos tomar el combinatorio de los 11 elementos del dominio, para conseguir los subconjuntos que forman los 4 elementos ordenados de menor a mayor que necesito.\\
+Sintetizando los puntos 2 y 3, tenemos que tomar la cantidad de funciones cuando el dominio es par que devuelvan un numero par, que son cinco ($f(\{2, 4, 6, 7, 10\})$). Por este item, tenemos 4 lugares del dominio ocupados, y como son funciones inyectivas, tenemos que la cantidad de funciones totales sin tomar items 2 y 3 son $11!$. Ya tomamos un "lugar" con $11 \choose 4$, entonces para las funciones pares nos queda $\dfrac{8!}{3!}$. Y las que restan, $7 \cdot 6$. Finalmente:\\
+$\dfrac{8!}{3!} \cdot {11 \choose 4} \cdot 7 \cdot 6$\\
+\end{enumerate}
 
+Esto se observa mejor de la siguiente manera:\\
+$\underset{\leqslant}{\underline{f(1)\hspace{0.2cm}}}\hspace{0.1cm}
+\underset{par}{\underline{f(2)\hspace{0.2cm}}}\hspace{0.1cm}
+\underset{\leqslant}{\underline{f(3)\hspace{0.2cm}}}\hspace{0.1cm}
+\underset{par}{\underline{f(4)\hspace{0.2cm}}}\hspace{0.1cm}
+\underset{\leqslant}{\underline{f(5)\hspace{0.2cm}}}\hspace{0.1cm}
+\underset{par}{\underline{f(6)\hspace{0.2cm}}}\hspace{0.1cm}
+\underset{\leqslant}{\underline{f(7)\hspace{0.2cm}}}\hspace{0.1cm}
+\underset{par}{\underline{f(8)\hspace{0.2cm}}}\hspace{0.1cm}
+\underset{7}{\underline{f(9)\hspace{0.2cm}}}\hspace{0.1cm}
+\underset{par}{\underline{f(10)\hspace{0.2cm}}}\hspace{0.1cm}
+\underset{6}{\underline{f(11)\hspace{0.2cm}}}\hspace{0.1cm}
+$\\ \textbf{(corregir, no esta bien explicado/hecho)}
 
+\section{Numeros Enteros (Parte 1)}
+\subsection{Divisibilidad}
+1. Decidir cuales de las siguientes afirmaciones son verdaderas $\forall a, b, c \in \mathbb{Z}$\\
+i) $ab \mid c \Rightarrow a \mid c$ y $b \mid c$\\
+Por definición de divisibilidad:\\
+$ab \mid c \Leftrightarrow c = ab \cdot k, k \in \mathbb{Z}$\\
+Y por asociatividad de la multiplicación:\\
+$c = a (b \cdot k) \Leftrightarrow a \mid c $\\
+$c = b (a \cdot k) \Leftrightarrow b	 \mid c $\\
+como queríamos ver.\\
+ii) $4 \mid a^2 \Rightarrow 2 \mid a$\\
+Por definición de divisibilidad, $a^2 = 4k, k\in\mathbb{Z}$\\
+Acá podemos cometer un error muy común, que consiste en tomar raíz cuadrada de ambos lados de la definición de divisibilidad. Mirá lo que pasa:\\
+$\sqrt[•]{a^2} = \sqrt[•]{4k} \Leftrightarrow a = 2\; \sqrt[•]{k}$ pero esto es absurdo! Acordate que estamos trabajando con numeros enteros y $\sqrt[•]{k} \not\in \mathbb{Z}$. Por lo tanto, vamos a hacer algo distinto.
+\begin{align*}
+\Leftrightarrow & a^2 = 4k  \\
+\Leftrightarrow &  a^2 = 2\cdot 2k\\
+\Leftrightarrow &  2 \mid  a^2\\
+\end{align*}
+Pero si $2 \mid a^2$ también vale que $2 \mid a\cdot a$, lo que es lo mismo que decir que $2 \mid a$ ya que por propiedad de divisibilidad sabemos que si $d \mid a \Rightarrow d \mid n \cdot a, n\in\mathbb{Z}$ y nuestra afirmación anterior es válida. (Pues "a" sería "n" en este caso). (esto esta mal)\\
+iii) $ 2 \mid ab \Rightarrow 2 \mid a $ o $2 \mid b$ \\
+Esto se cumple si a o b son ambos pares, o si a es par y b impar, o viceversa. No se cumple cuando a y b son ambos impares, ya que un numero impar por otro numero impar da un numero impar, por lo tanto no seria divisible por 2. Nótese que 2 es un numero primo, más tarde en la materia veremos que los numeros primos tienen una propiedad fundamental que indica que si $p \mid ab \Rightarrow p \mid a$ o $p\mid b$ con $p$ primo y $a,b \in\mathbb{Z}$\\
+iv) $9 \mid ab \Rightarrow 9 \mid a$ o $9 \mid b$\\
+Esto es Falso, demostrable con un contraejemplo:\\
+$9 \mid 18 \Rightarrow 9 \nmid 3$ ni $9 \nmid 6$\\
+v) $a \mid b+c \Rightarrow a \mid b$ o $a \mid c$\\ 
+Falso, demostrable con contraejemplo:\\
+$2 \mid 8 = 5 + 3 \Rightarrow 2 \nmid 5$ ni $2 \nmid 3$\\
+vi) $a \mid c \land a \mid b \Rightarrow ab \mid c$\\
+Falso, demostrable con contraejemplo:\\
+$18 \mid 36 \land 3 \mid 36 \Rightarrow 18 \cdot 3 \mid 36$\\
+vii) $ a \mid b \Rightarrow a \leqslant b$ \\
+Pruebo por absurdo:\\
+$ a \mid b \Rightarrow a > b$, i.e. si $3 \mid 18 \Rightarrow 3 > 18$ Absurdo! Por lo tanto, $3 \mid 18 \Rightarrow 3 \leqslant 18$ y confirma nuestro enunciado.\\
+No se si esta bien, pero tambien se puede probar que:\\
+$a \mid b \Leftrightarrow b = a \cdot k \geqslant a \Rightarrow b \geqslant a$, $k\in\mathbb{Z}$ no nulo.\\
+viii) Lo mismo que lo anterior, pero con $k \geqslant 1$\\
+ix) $a \mid b + a^2 \Rightarrow a \mid b $\\
+Como se que $a \mid a$ y $a \mid a \cdot a = a^2$, y se que si $a \mid a \land a \mid b \Rightarrow a \mid a + b$ entonces si $a \mid b + a^2$ tambien divide a la resta, por lo tanto $a \mid b + a^2 - a^2 = b$, luego $a \mid b$ como queríamos ver.\\
+x) $a \mid b \Rightarrow a^n \mid b^n$\\
+Se que si $a \mid b$ entonces divide a sus multiplos, por lo tanto $a \mid b^n$. Luego, por definición, si $b^n = ak$, se que $b^n = a(a^n \cdot k)$, y por asociatividad $b^n = a^n (ak) \Leftrightarrow a^n \mid b^n$ como queríamos probar.\\
+2. es largo, pasar despues\\
+3. Sale facil con congruencia\\
+4.Se probó con inducción\\
+5. ni idea \\
+6. i) $ n! \mid n(n-1)(n-2)...2\cdot 1 = n!$\\
+ii) 
+7. 
 \end{document}
