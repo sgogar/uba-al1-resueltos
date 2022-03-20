@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.20)  2 FEB 2022 20:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2022.2.23)  18 MAR 2022 15:35
 entering extended mode
 **./ver0.1.tex
 (ver0.1.tex
@@ -672,302 +672,314 @@ LaTeX Font Info:    Trying to load font information for U+lasy on input line 65
 (C:\Users\Santi\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-Underfull \hbox (badness 10000) in paragraph at lines 83--118
+Underfull \hbox (badness 10000) in paragraph at lines 83--117
 
  []
 
 [1
 
 {C:/Users/Santi/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [2] [3]
-Underfull \hbox (badness 10000) in paragraph at lines 180--199
+Underfull \hbox (badness 10000) in paragraph at lines 179--198
 
  []
 
 
-LaTeX Warning: Command \textbullet invalid in math mode on input line 215.
+LaTeX Warning: Command \textbullet invalid in math mode on input line 214.
 
 
-LaTeX Warning: Command \textbullet invalid in math mode on input line 215.
-
-Missing character: There is no ˆ in font cmr6!
-
-LaTeX Warning: Command \textbullet invalid in math mode on input line 221.
-
-
-LaTeX Warning: Command \textbullet invalid in math mode on input line 221.
+LaTeX Warning: Command \textbullet invalid in math mode on input line 214.
 
 Missing character: There is no ˆ in font cmr6!
 
-LaTeX Warning: Command \textbullet invalid in math mode on input line 221.
+LaTeX Warning: Command \textbullet invalid in math mode on input line 220.
 
 
-LaTeX Warning: Command \textbullet invalid in math mode on input line 221.
+LaTeX Warning: Command \textbullet invalid in math mode on input line 220.
+
+Missing character: There is no ˆ in font cmr6!
+
+LaTeX Warning: Command \textbullet invalid in math mode on input line 220.
+
+
+LaTeX Warning: Command \textbullet invalid in math mode on input line 220.
 
 Missing character: There is no ˆ in font cmr6!
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 235--237
+Underfull \hbox (badness 10000) in paragraph at lines 234--236
 
  []
 
 
-LaTeX Warning: Command \textbullet invalid in math mode on input line 247.
+LaTeX Warning: Command \textbullet invalid in math mode on input line 246.
 
 
-LaTeX Warning: Command \textbullet invalid in math mode on input line 247.
-
-Missing character: There is no ˆ in font cmr6!
-
-LaTeX Warning: Command \textbullet invalid in math mode on input line 247.
-
-
-LaTeX Warning: Command \textbullet invalid in math mode on input line 247.
+LaTeX Warning: Command \textbullet invalid in math mode on input line 246.
 
 Missing character: There is no ˆ in font cmr6!
 
-Underfull \hbox (badness 10000) in paragraph at lines 269--287
+LaTeX Warning: Command \textbullet invalid in math mode on input line 246.
+
+
+LaTeX Warning: Command \textbullet invalid in math mode on input line 246.
+
+Missing character: There is no ˆ in font cmr6!
+
+Underfull \hbox (badness 10000) in paragraph at lines 268--286
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 291--297
+Underfull \hbox (badness 10000) in paragraph at lines 290--296
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 298--302
+Underfull \hbox (badness 10000) in paragraph at lines 297--301
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 314--319
+Underfull \hbox (badness 10000) in paragraph at lines 313--318
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 319--321
+Underfull \hbox (badness 10000) in paragraph at lines 318--320
 
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 338--341
+Underfull \hbox (badness 10000) in paragraph at lines 337--340
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 341--343
+Underfull \hbox (badness 10000) in paragraph at lines 340--342
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 343--345
+Underfull \hbox (badness 10000) in paragraph at lines 342--344
 
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 357--360
+Underfull \hbox (badness 10000) in paragraph at lines 356--359
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 361--363
+Underfull \hbox (badness 10000) in paragraph at lines 360--362
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 371--372
+Underfull \hbox (badness 10000) in paragraph at lines 370--371
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 372--374
+Underfull \hbox (badness 10000) in paragraph at lines 371--373
 
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 384--387
+Underfull \hbox (badness 10000) in paragraph at lines 383--386
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 389--391
+Underfull \hbox (badness 10000) in paragraph at lines 388--390
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 399--400
+Underfull \hbox (badness 10000) in paragraph at lines 398--399
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 400--402
+Underfull \hbox (badness 10000) in paragraph at lines 399--401
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 402--404
+Underfull \hbox (badness 10000) in paragraph at lines 401--403
 
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 423--429
+Underfull \hbox (badness 10000) in paragraph at lines 422--428
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 440--441
+Underfull \hbox (badness 10000) in paragraph at lines 439--440
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 441--443
+Underfull \hbox (badness 10000) in paragraph at lines 440--442
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 443--445
+Underfull \hbox (badness 10000) in paragraph at lines 442--444
 
  []
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 447--449
+Underfull \hbox (badness 10000) in paragraph at lines 446--448
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 455--457
+Underfull \hbox (badness 10000) in paragraph at lines 454--456
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 461--462
+Underfull \hbox (badness 10000) in paragraph at lines 460--461
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 463--467
+Underfull \hbox (badness 10000) in paragraph at lines 462--466
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 468--470
+Underfull \hbox (badness 10000) in paragraph at lines 467--469
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 470--472
+Underfull \hbox (badness 10000) in paragraph at lines 469--471
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 472--474
+Underfull \hbox (badness 10000) in paragraph at lines 471--473
 
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 485--490
+Underfull \hbox (badness 10000) in paragraph at lines 484--489
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 490--492
+Underfull \hbox (badness 10000) in paragraph at lines 489--491
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--494
+Underfull \hbox (badness 10000) in paragraph at lines 491--493
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 496--498
+Underfull \hbox (badness 10000) in paragraph at lines 495--497
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 504--509
+Underfull \hbox (badness 10000) in paragraph at lines 503--508
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 509--511
+Underfull \hbox (badness 10000) in paragraph at lines 508--510
 
  []
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 511--513
+Underfull \hbox (badness 10000) in paragraph at lines 510--512
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 522--524
+Underfull \hbox (badness 10000) in paragraph at lines 521--523
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 524--526
+Underfull \hbox (badness 10000) in paragraph at lines 523--525
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 528--530
+Underfull \hbox (badness 10000) in paragraph at lines 527--529
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 538--543
+Underfull \hbox (badness 10000) in paragraph at lines 537--542
 
  []
 
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 544--545
+Underfull \hbox (badness 10000) in paragraph at lines 543--544
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 555--560
+Underfull \hbox (badness 10000) in paragraph at lines 554--559
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 562--563
+Underfull \hbox (badness 10000) in paragraph at lines 561--562
 
  []
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 583--584
+Underfull \hbox (badness 10000) in paragraph at lines 582--583
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 584--586
+Underfull \hbox (badness 10000) in paragraph at lines 583--585
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 604--605
+Underfull \hbox (badness 10000) in paragraph at lines 603--604
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 605--607
+Underfull \hbox (badness 10000) in paragraph at lines 604--606
 
  []
 
 [15]
 
-LaTeX Warning: Command \textbullet invalid in math mode on input line 621.
+LaTeX Warning: Command \textbullet invalid in math mode on input line 620.
 
 
-LaTeX Warning: Command \textbullet invalid in math mode on input line 621.
+LaTeX Warning: Command \textbullet invalid in math mode on input line 620.
 
 Missing character: There is no ˆ in font cmr6!
 
-Underfull \hbox (badness 10000) in paragraph at lines 617--623
+Underfull \hbox (badness 10000) in paragraph at lines 616--622
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 630--632
+Underfull \hbox (badness 10000) in paragraph at lines 629--631
+
+ []
+
+
+LaTeX Warning: Command \textbullet invalid in math mode on input line 635.
+
+
+LaTeX Warning: Command \textbullet invalid in math mode on input line 635.
+
+Missing character: There is no ˆ in font cmr6!
+
+Underfull \hbox (badness 10000) in paragraph at lines 634--636
 
  []
 
@@ -979,111 +991,144 @@ LaTeX Warning: Command \textbullet invalid in math mode on input line 636.
 
 Missing character: There is no ˆ in font cmr6!
 
-Underfull \hbox (badness 10000) in paragraph at lines 635--637
-
- []
+LaTeX Warning: Command \textbullet invalid in math mode on input line 636.
 
 
-LaTeX Warning: Command \textbullet invalid in math mode on input line 637.
-
-
-LaTeX Warning: Command \textbullet invalid in math mode on input line 637.
+LaTeX Warning: Command \textbullet invalid in math mode on input line 636.
 
 Missing character: There is no ˆ in font cmr6!
 
-LaTeX Warning: Command \textbullet invalid in math mode on input line 637.
-
-
-LaTeX Warning: Command \textbullet invalid in math mode on input line 637.
-
-Missing character: There is no ˆ in font cmr6!
-
-Underfull \hbox (badness 10000) in paragraph at lines 637--642
+Underfull \hbox (badness 10000) in paragraph at lines 636--641
 
  []
 
 [16]
-Underfull \hbox (badness 10000) in paragraph at lines 649--651
+Underfull \hbox (badness 10000) in paragraph at lines 648--650
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 654--656
+Underfull \hbox (badness 10000) in paragraph at lines 653--655
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 656--661
+Underfull \hbox (badness 10000) in paragraph at lines 655--660
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 669--671
+Underfull \hbox (badness 10000) in paragraph at lines 668--670
 
  []
 
 [17]
-Underfull \hbox (badness 10000) in paragraph at lines 674--676
+Underfull \hbox (badness 10000) in paragraph at lines 673--675
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 676--681
+Underfull \hbox (badness 10000) in paragraph at lines 675--680
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 688--690
+Underfull \hbox (badness 10000) in paragraph at lines 687--689
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 693--695
+Underfull \hbox (badness 10000) in paragraph at lines 692--694
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 699--701
+Underfull \hbox (badness 10000) in paragraph at lines 698--700
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 702--703
+Underfull \hbox (badness 10000) in paragraph at lines 701--702
 
  []
 
 [18]
-Underfull \hbox (badness 10000) in paragraph at lines 716--719
+Underfull \hbox (badness 10000) in paragraph at lines 715--718
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 723--725
+Underfull \hbox (badness 10000) in paragraph at lines 722--724
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 725--735
+Underfull \hbox (badness 10000) in paragraph at lines 724--734
 
  []
 
 [19]
-Underfull \hbox (badness 10000) in paragraph at lines 737--741
+Underfull \hbox (badness 10000) in paragraph at lines 736--740
 
  []
 
-[20] (ver0.1.aux)
+
+Underfull \hbox (badness 10000) in paragraph at lines 744--803
+
+ []
+
+[20]
+
+Package amsmath Warning: Foreign command \atopwithdelims;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 804.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 819--823
+
+ []
+
+[21]
+
+LaTeX Warning: Command \textbullet invalid in math mode on input line 852.
+
+
+LaTeX Warning: Command \textbullet invalid in math mode on input line 852.
+
+Missing character: There is no ˆ in font cmr6!
+
+LaTeX Warning: Command \textbullet invalid in math mode on input line 852.
+
+
+LaTeX Warning: Command \textbullet invalid in math mode on input line 852.
+
+Missing character: There is no ˆ in font cmr6!
+
+LaTeX Warning: Command \textbullet invalid in math mode on input line 852.
+
+
+LaTeX Warning: Command \textbullet invalid in math mode on input line 852.
+
+Missing character: There is no ˆ in font cmr6!
+
+LaTeX Warning: Command \textbullet invalid in math mode on input line 852.
+
+
+LaTeX Warning: Command \textbullet invalid in math mode on input line 852.
+
+Missing character: There is no ˆ in font cmr6!
+[22] [23] (ver0.1.aux)
 Package rerunfilecheck Info: File `ver0.1.out' has not changed.
-(rerunfilecheck)             Checksum: D574A351093DC0E11BB889161D09CCE3;2034.
+(rerunfilecheck)             Checksum: 27D43510BB28BD1755AC5E8790BF6C8E;2341.
  ) 
 Here is how much of TeX's memory you used:
- 14224 strings out of 478927
- 215883 string characters out of 2852534
+ 14236 strings out of 478927
+ 216018 string characters out of 2852535
  547919 words of memory out of 3000000
- 31805 multiletter control sequences out of 15000+600000
+ 31809 multiletter control sequences out of 15000+600000
  419405 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,19n,80p,555b,344s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,19n,80p,555b,464s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\Santi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc
 1095.pk> <C:\Users\Santi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
 0\ecbi1095.pk> <C:\Users\Santi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
@@ -1104,9 +1149,9 @@ public/amsfonts/cm/cmsy10.pfb><C:/Users/Santi/AppData/Local/Programs/MiKTeX/fon
 ts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Santi/AppData/Local/Programs/Mi
 KTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/Santi/AppData/Loc
 al/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on ver0.1.pdf (20 pages, 267286 bytes).
+Output written on ver0.1.pdf (23 pages, 285478 bytes).
 PDF statistics:
- 457 PDF objects out of 1000 (max. 8388607)
- 37 named destinations out of 1000 (max. 500000)
- 89 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 495 PDF objects out of 1000 (max. 8388607)
+ 45 named destinations out of 1000 (max. 500000)
+ 105 words of extra memory for PDF output out of 10000 (max. 10000000)
 
