@@ -1,8 +1,7 @@
 # uba-al1-resueltos
 Resueltos de Algebra 1- 2C2021.
 
-Voy a ir actualizando los resueltos a medida que me libere con los parciales. Me faltan terminar algunos ejercicios de la Guia 7 de polinomios. Si encontras algun error mandame un mail a atsantiagogarcia@gmail.com o whatsapp: 2392-494808
-
+Voy a ir actualizando los resueltos a medida que me libere con los parciales. Me faltan terminar algunos ejercicios de la Guia 7 de polinomios. 
 Falta:
 
 1er Parcial:
